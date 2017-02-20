@@ -13,6 +13,8 @@ The OmicsDI web application supports at the moment nine different refinements: `
 
 {{< figure src="/media/filtering-results.png" title="Figure 1: Filtering results of Search in the Browse Page" >}}
 
+</br></br>
+
 ## Filter Box
 
 {{< figure src="/media/filter-box-typing.png" title="Figure 2: Tissue Filter Box" class="left" width="300">}}
@@ -29,6 +31,8 @@ annotations provided by the specific databases.
 OmicsDI Team is always improving the automatic annotation system to move more attributes/properties of the dataset
 from Free-Text to ontology-based values.
 {{< / highlight >}}
+
+</br></br>
 
 ## Ranking Results
 
