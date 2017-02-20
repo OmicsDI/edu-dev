@@ -26,7 +26,7 @@ The ``Bubble Chart`` block allows the users to navigate the data using three mai
 and Diseases. The user can click in the bubble and it will be redirected to the search using the clicked term.
 
 The Repo/Omics ``Bar Chart`` and the Omics vs Year bar chart allow the users navigate the data using the omics categories
-(**metabolomics**, **transcriptomics**, **proteomics** and **genomics**). The user can click a bar or the pie and it will
+(**metabolomics**, **transcriptomics**, **proteomics** and **genomics**). The ``user`` can click a bar or the pie and it will
 be redirected to the search using the clicked term.
 
 The Latest Datasets and Most accessed datasets blocks provide a list of the datasets by the tow categories.

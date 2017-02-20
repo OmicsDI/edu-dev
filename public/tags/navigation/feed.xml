@@ -40,7 +40,7 @@ the wordcloud to search for this term in the resource.&lt;/p&gt;
 and Diseases. The user can click in the bubble and it will be redirected to the search using the clicked term.&lt;/p&gt;
 
 &lt;p&gt;The Repo/Omics &lt;code&gt;Bar Chart&lt;/code&gt; and the Omics vs Year bar chart allow the users navigate the data using the omics categories
-(&lt;strong&gt;metabolomics&lt;/strong&gt;, &lt;strong&gt;transcriptomics&lt;/strong&gt;, &lt;strong&gt;proteomics&lt;/strong&gt; and &lt;strong&gt;genomics&lt;/strong&gt;). The user can click a bar or the pie and it will
+(&lt;strong&gt;metabolomics&lt;/strong&gt;, &lt;strong&gt;transcriptomics&lt;/strong&gt;, &lt;strong&gt;proteomics&lt;/strong&gt; and &lt;strong&gt;genomics&lt;/strong&gt;). The &lt;code&gt;user&lt;/code&gt; can click a bar or the pie and it will
 be redirected to the search using the clicked term.&lt;/p&gt;
 
 &lt;p&gt;The Latest Datasets and Most accessed datasets blocks provide a list of the datasets by the tow categories.&lt;/p&gt;

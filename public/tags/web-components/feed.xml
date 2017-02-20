@@ -6,8 +6,186 @@
     <description>Recent content in Web Components on OmicsDI Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Feb 2017 01:17:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Feb 2017 10:02:07 +0000</lastBuildDate>
     <atom:link href="https://omicsdi.github.io/tags/web-components/feed/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Searching in OmicsDI</title>
+      <link>https://omicsdi.github.io/post/searching-in-omicsdi/</link>
+      <pubDate>Mon, 20 Feb 2017 10:02:07 +0000</pubDate>
+      
+      <guid>https://omicsdi.github.io/post/searching-in-omicsdi/</guid>
+      <description>
+
+&lt;p&gt;The &lt;strong&gt;main goal&lt;/strong&gt; of the &lt;a href=&#34;www.omicsdi.org&#34;&gt;Omics Discovery Index&lt;/a&gt; is to provide a platform for &lt;code&gt;searching&lt;/code&gt; and &lt;code&gt;linking&lt;/code&gt; omics public data.
+OmicsDI has implemented a &lt;strong&gt;unique&lt;/strong&gt; and &lt;strong&gt;novel&lt;/strong&gt; &lt;code&gt;Search Engine&lt;/code&gt; for omics datasets including public and protected data.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-omicsdi-search-box:b52c04c2105c538bbdc8450470d85aba&#34;&gt;The OmicsDI Search Box&lt;/h2&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://omicsdi.github.io/media/search-box.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Figure 1: OmicsDI Search Box&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;The &lt;code&gt;OmicsDI Search Box&lt;/code&gt; is the main component to searching in OmicsDI. The &lt;code&gt;user&lt;/code&gt; can type a set of &lt;strong&gt;keywords&lt;/strong&gt; that will enable the system
+to find the datasets containing those keywords.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span&gt;&lt;/span&gt;If the user use double quote &lt;span class=&#34;s2&#34;&gt;&amp;quot;breast cancer&amp;quot;&lt;/span&gt; in their search the system will try to find the exact sentence in the datasets.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The &lt;code&gt;OmicsDI Search Box&lt;/code&gt; provides a unique &lt;strong&gt;auto-complete&lt;/strong&gt; feature that enable &lt;code&gt;user&lt;/code&gt; to select sentence after typing a subset of keywords. For example,
+Figure 2 shows all sentences/phrases in OmicsDI containing the words &lt;em&gt;breast cancer&lt;/em&gt;.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://omicsdi.github.io/media/search-box-autocomplete.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Figure 2: OmicsDI Search Box with Auto-complete&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;h2 id=&#34;query-syntax:b52c04c2105c538bbdc8450470d85aba&#34;&gt;Query Syntax&lt;/h2&gt;
+
+&lt;p&gt;When the user types any text in &lt;code&gt;OmicsDI Search Box&lt;/code&gt;, the input is translated into an &lt;a href=&#34;http://lucene.apache.org/&#34;&gt;Apache Lucene query&lt;/a&gt; that is then executed
+to get the search results. The actual query executed is generated following the typical  Apache Lucene query syntax  in order to
+provide a generic approach avoiding complex query rearrangements.&lt;/p&gt;
+
+&lt;p&gt;Multiple search terms separated by white spaces are combined by default in &lt;code&gt;AND&lt;/code&gt; logic. Therefore an input text containing for example
+&lt;code&gt;glutathione transferase&lt;/code&gt; is treated as &lt;code&gt;glutathione AND transferase&lt;/code&gt; and only entries having both terms will be found. The default order
+of results is based on their relevance, i.e. the proximity of the terms in the entries.&lt;/p&gt;
+
+&lt;p&gt;In the Table 1 below an overview of some useful query syntax elements is presented.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;Element&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Meaning&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Usage&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Example&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;AND&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;In addition to&lt;/td&gt;
+&lt;td&gt;term1 AND term2&lt;/td&gt;
+&lt;td&gt;glutathione AND transferase&lt;/td&gt;
+&lt;td&gt;Matches entries where both glutathione and transferase occur.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;OR&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Equivalence&lt;/td&gt;
+&lt;td&gt;term1 OR term2&lt;/td&gt;
+&lt;td&gt;glutathione OR transferase&lt;/td&gt;
+&lt;td&gt;Matches entries where either glutathione or transferase occur.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;NOT&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Exclusion&lt;/td&gt;
+&lt;td&gt;term1 NOT term2&lt;/td&gt;
+&lt;td&gt;coding NOT fragment&lt;/td&gt;
+&lt;td&gt;Matches entries containing  coding  but not fragment.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;*&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Wildcard&lt;/td&gt;
+&lt;td&gt;partialTerm*&lt;/td&gt;
+&lt;td&gt;gluta*&lt;/td&gt;
+&lt;td&gt;Matches for instance glutathione, glutamate, glutamic.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&amp;rdquo; &amp;ldquo;&lt;/td&gt;
+&lt;td&gt;Exact match&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;quoted text&amp;rdquo;&lt;/td&gt;
+&lt;td&gt;&amp;ldquo;x-ray diffraction&amp;rdquo;&lt;/td&gt;
+&lt;td&gt;Exact matching for entries containing x-ray diffraction.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;( )&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Grouping&lt;/td&gt;
+&lt;td&gt;(text)&lt;/td&gt;
+&lt;td&gt;(reductase OR transferase) AND glutathione&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;Field:&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Field-specific search&lt;/td&gt;
+&lt;td&gt;fieldId:term&lt;/td&gt;
+&lt;td&gt;description:dopamine&lt;/td&gt;
+&lt;td&gt;Matches for a field description containing dopamine.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&#34;escaping-special-characters:b52c04c2105c538bbdc8450470d85aba&#34;&gt;Escaping special characters&lt;/h4&gt;
+
+&lt;p&gt;The following characters within queries require to be escaped (using a &amp;lsquo; \ &amp;lsquo; before the character to escape) in order to be correctly interpreted:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span&gt;&lt;/span&gt;+ - &lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; ! &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; ^ &lt;span class=&#34;s2&#34;&gt;&amp;quot; ~ * ? : \ /&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Since Apache Lucene supports regular expression searches (matching a pattern between forward slashes) the forward slash &amp;lsquo; / &amp;rsquo; has become a special character to be escaped. For example to search for
+&lt;code&gt;cancer/testis&lt;/code&gt; use the query &lt;code&gt;cancer\/testis&lt;/code&gt;. If special characters are not escaped the actual query performed may be different from what expected.&lt;/p&gt;
+
+&lt;h4 id=&#34;query-examples:b52c04c2105c538bbdc8450470d85aba&#34;&gt;Query examples&lt;/h4&gt;
+
+&lt;p&gt;Following the aforementioned query syntax, users can easily search and filter results according to data content and characteristics.
+A few examples of queries that can be performed using EBI Search are listed below.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Search for &lt;a href=&#34;http://www.omicsdi.org/search?q=insulin%20receptor&#34;&gt;insulin receptor&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Search Datasets that identified &lt;a href=&#34;http://www.omicsdi.org/search?q=(UNIPROT:%20(%22P07900%22))&#34;&gt;P07900&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;searching-using-biological-evidences:b52c04c2105c538bbdc8450470d85aba&#34;&gt;Searching using Biological Evidences&lt;/h2&gt;
+
+&lt;p&gt;The &lt;code&gt;OmicsDI Search Box&lt;/code&gt; allows the end-users to search data using biological evidences such as the list of the proteins identified in the proteomics experiment or the metabolite
+reported in the Metabolomics experiment. For example (Figure 3), if the user search for &lt;code&gt;3-methyl-2-oxobutanoic&lt;/code&gt; in the resource it will found one dataset in Metaboligths and five in Metabolome workbench
+that identified the current molecule.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://omicsdi.github.io/media/search-biological-evidences.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Figure 3: Search for Biological evidences  3-methyl-2-oxobutanoic&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The final search results are shown in the &lt;a href=&#34;http://www.omicsdi.org/search?q=*:*&#34;&gt;browser page&lt;/a&gt; including &lt;code&gt;Refine Filters&lt;/code&gt;. &lt;a href=&#39;https://omicsdi.github.io/post/filter-results/&#39;&gt;Read More Here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Navigation Omics from Home Page</title>
@@ -40,7 +218,7 @@ the wordcloud to search for this term in the resource.&lt;/p&gt;
 and Diseases. The user can click in the bubble and it will be redirected to the search using the clicked term.&lt;/p&gt;
 
 &lt;p&gt;The Repo/Omics &lt;code&gt;Bar Chart&lt;/code&gt; and the Omics vs Year bar chart allow the users navigate the data using the omics categories
-(&lt;strong&gt;metabolomics&lt;/strong&gt;, &lt;strong&gt;transcriptomics&lt;/strong&gt;, &lt;strong&gt;proteomics&lt;/strong&gt; and &lt;strong&gt;genomics&lt;/strong&gt;). The user can click a bar or the pie and it will
+(&lt;strong&gt;metabolomics&lt;/strong&gt;, &lt;strong&gt;transcriptomics&lt;/strong&gt;, &lt;strong&gt;proteomics&lt;/strong&gt; and &lt;strong&gt;genomics&lt;/strong&gt;). The &lt;code&gt;user&lt;/code&gt; can click a bar or the pie and it will
 be redirected to the search using the clicked term.&lt;/p&gt;
 
 &lt;p&gt;The Latest Datasets and Most accessed datasets blocks provide a list of the datasets by the tow categories.&lt;/p&gt;
