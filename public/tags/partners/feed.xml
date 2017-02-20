@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Partners on OmicsDI Blog</title>
-    <link>http://omicsdi.github.io/tags/partners/</link>
+    <link>https://omicsdi.github.io/tags/partners/</link>
     <description>Recent content in Partners on OmicsDI Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 17 Feb 2017 23:09:18 +0000</lastBuildDate>
-    <atom:link href="http://omicsdi.github.io/tags/partners/feed/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://omicsdi.github.io/tags/partners/feed/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>OmicsDI Major Partners</title>
-      <link>http://omicsdi.github.io/post/partners/</link>
+      <link>https://omicsdi.github.io/post/partners/</link>
       <pubDate>Fri, 17 Feb 2017 23:09:18 +0000</pubDate>
       
-      <guid>http://omicsdi.github.io/post/partners/</guid>
+      <guid>https://omicsdi.github.io/post/partners/</guid>
       <description>
 
 &lt;p&gt;OmicsDI has been build with the collaboration of multiple Consortium&amp;rsquo;s and individual Databases. This collaboration has enabled
@@ -27,7 +27,7 @@ At the same time, OmicsDI has collaborated with other individual archives and da
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://omicsdi.github.io/media/PX_logo.png&#34; /&gt;
+        &lt;img src=&#34;https://omicsdi.github.io/media/PX_logo.png&#34; /&gt;
     
     
 &lt;/figure&gt;
@@ -46,7 +46,7 @@ All ProteomeXchange data is fully open after release of the associated publicati
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://omicsdi.github.io/media/metabolomexchange.png&#34; /&gt;
+        &lt;img src=&#34;https://omicsdi.github.io/media/metabolomexchange.png&#34; /&gt;
     
     
 &lt;/figure&gt;
@@ -64,7 +64,7 @@ Comprehensive Metabolomics Resource Cores.&lt;/p&gt;
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://omicsdi.github.io/media/ega_logo.png&#34; /&gt;
+        &lt;img src=&#34;https://omicsdi.github.io/media/ega_logo.png&#34; /&gt;
     
     
 &lt;/figure&gt;

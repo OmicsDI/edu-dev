@@ -2,20 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog Posts on OmicsDI Blog</title>
-    <link>http://omicsdi.github.io/categories/blog-posts/</link>
+    <link>https://omicsdi.github.io/categories/blog-posts/</link>
     <description>Recent content in Blog Posts on OmicsDI Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 17 Feb 2017 23:48:18 +0000</lastBuildDate>
-    <atom:link href="http://omicsdi.github.io/categories/blog-posts/feed/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://omicsdi.github.io/categories/blog-posts/feed/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Welcome to OmicsDI Edu page</title>
-      <link>http://omicsdi.github.io/post/welcome-to-omicsdi/</link>
+      <link>https://omicsdi.github.io/post/welcome-to-omicsdi/</link>
       <pubDate>Fri, 17 Feb 2017 23:48:18 +0000</pubDate>
       
-      <guid>http://omicsdi.github.io/post/welcome-to-omicsdi/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.omicsdi.org&#34;&gt;Omics Discovery Index&lt;/a&gt; is an integrated and open source platform
+      <guid>https://omicsdi.github.io/post/welcome-to-omicsdi/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://www.omicsdi.org&#34;&gt;Omics Discovery Index&lt;/a&gt; is an integrated and open source platform
 facilitating the access and dissemination of omics datasets. It provides a unique infrastructure to integrate
 datasets coming from multiple omics studies, including at present &lt;strong&gt;proteomics&lt;/strong&gt;, &lt;strong&gt;genomics&lt;/strong&gt;, &lt;strong&gt;transcriptomics&lt;/strong&gt; and
 &lt;strong&gt;metabolomics&lt;/strong&gt;.&lt;/p&gt;
@@ -25,10 +27,21 @@ indexing system, which is able to integrate different biological entities includ
 genes, proteins and metabolites with the relevant life science literature. OmicsDI is updated daily, as new datasets get
 publicly available in the contributing repositories.&lt;/p&gt;
 
+&lt;h2 id=&#34;omics-data-submission:acb49c8cd62da07b088168eb054ae884&#34;&gt;Omics Data Submission&lt;/h2&gt;
+
+&lt;p&gt;The increasing role of huge datasets in scientific research has important implications for the way the research
+is conducted, for the way it should be organised and funded, and for the training of new researchers.
+However, the advances in biomedical research depend on scientists’ ability to consult and use all available data,
+independently from where they were originally produced: data sharing on a global scale is the best way to
+‘advance science for the public good’.&lt;/p&gt;
+
+&lt;p&gt;The assumption underlying this policy is that the more scientists are allowed to access the same sets of data,
+the more those data will be used to produce new knowledge about biological phenomena.&lt;/p&gt;
+
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://omicsdi.github.io/media/databases-workflow.png&#34; /&gt;
+        &lt;img src=&#34;https://omicsdi.github.io/media/databases-workflow.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -38,15 +51,150 @@ publicly available in the contributing repositories.&lt;/p&gt;
     
 &lt;/figure&gt;
 
+
+&lt;p&gt;Figure 1 shows how data is produced/store and distributed in biomedical research. The result of an omics experiment (e.g Proteomics or Metabolomics)
+is submitted to a public Archive (e.g PRIDE or Metaboligths). These &lt;code&gt;Data Archives&lt;/code&gt; provide a common interface for &lt;strong&gt;submission&lt;/strong&gt;,
+&lt;strong&gt;validation&lt;/strong&gt; and &lt;strong&gt;downloading&lt;/strong&gt; of the original results/data. Importantly, each individual repository/archive define three major
+components to guide the submission process:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The metadata guidelines including Standards and Ontologies to define/describe a datasets and corresponding components (e.g. samples, instruments).&lt;/li&gt;
+&lt;li&gt;File formats to store and handle the underlying data in the Dataset.&lt;/li&gt;
+&lt;li&gt;The submission guidelines define how to submit and retrieve the data from the repository.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In recent years the number of databases and archives has growth in all omics fields [1]. For example,
+in Proteomics the results of a Mass spectrometry experiment can be submitted to four different databases members of
+&lt;a href=&#34;www.proteomexchange.org&#34;&gt;ProteomeXchange&lt;/a&gt;: PeptideAtlas/PASSEL, PRIDE, MassIVE, jPOST. In addition, each Omics field
+has developed and growth independently of the other fields including their metadata specifications, file formats and submission
+guidelines. For this reason most of the &lt;code&gt;Data Archives&lt;/code&gt; are field specific (e.g. Metabolomics - Metaboligths, Metabolomics Workbench).&lt;/p&gt;
+
+&lt;h2 id=&#34;omics-data-dissemination:acb49c8cd62da07b088168eb054ae884&#34;&gt;Omics Data Dissemination&lt;/h2&gt;
+
+&lt;p&gt;After the data is submitted to a formal &lt;a href=&#39;#omics-data-submission:acb49c8cd62da07b088168eb054ae884&#39;&gt;Archive&lt;/a&gt;, Knowledge Base Databases
+(&lt;code&gt;BDs&lt;/code&gt;) &lt;strong&gt;reuse&lt;/strong&gt; part of the public data to respond specific questions (e.g. Gene Expression Profiles - ExpressionAtlas). The
+number of these &lt;code&gt;DBs&lt;/code&gt; has growth in recent years. For example, Table 1 shows the list of Protein Expression Databases [1] that include
+peptide sequences, post-translational modifications, expression profiles.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Table 1&lt;/strong&gt;: Proteomics Knowledge Base Databases (&lt;code&gt;BDs&lt;/code&gt;) including information about Protein Expression informations (e.g
+Peptides Sequences, Post-Translational Modifications).&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;﻿&lt;strong&gt;Resource&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;URL&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Publication&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Cancer Mutant Proteome Database&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://cgbc.cgu.edu.tw/cmpd/&#34;&gt;http://cgbc.cgu.edu.tw/cmpd/&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Nucleic Acids Res. 2015.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;MOPED&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.proteinspire.org/MOPED/&#34;&gt;https://www.proteinspire.org/MOPED/&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Nucleic Acids Res. 2015.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;ProteomicsDB&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.proteomicsdb.org/&#34;&gt;https://www.proteomicsdb.org/&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Nature. 2014&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;MaxQB&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://maxqb.biochem.mpg.de/mxdb/&#34;&gt;http://maxqb.biochem.mpg.de/mxdb/&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Mol Cell Proteomics. 2012&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;GPMDB&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://gpmdb.thegpm.org/&#34;&gt;http://gpmdb.thegpm.org/&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;COPaKB&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.heartproteome.org/copa/Default.aspx&#34;&gt;http://www.heartproteome.org/copa/Default.aspx&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Circ Res. 2013&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;paxDB&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://pax-db.org/#!home&#34;&gt;http://pax-db.org/#!home&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Mol Cell Proteomics. 2012&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Human Proteinpedia&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.humanproteinpedia.org/&#34;&gt;http://www.humanproteinpedia.org/&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Curr Protoc Bioinformatics. 2013&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Human Proteome Map&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.humanproteomemap.org/&#34;&gt;http://www.humanproteomemap.org/&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Nature. 2014&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;omicsdi-vision:acb49c8cd62da07b088168eb054ae884&#34;&gt;OmicsDI Vision&lt;/h2&gt;
+
+
+&lt;figure class=&#34;left&#34;&gt;
+    
+        &lt;img src=&#34;https://omicsdi.github.io/media/vision.png&#34; width=&#34;400&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;All these databases/repositories has created a complex and distributed scenario where the data can
+be submitted into different &lt;code&gt;Archives&lt;/code&gt; and reuse in multiple and different &lt;code&gt;DBs&lt;/code&gt;. The development of tools
+facilitating &lt;strong&gt;data sharing&lt;/strong&gt; and able to handle this complexity is a great challenge in itself.&lt;/p&gt;
+
+&lt;p&gt;In this context, we introduce here the &lt;a href=&#34;http://www.omicsdi.org&#34;&gt;Omics Discovery Index&lt;/a&gt;, an open source platform facilitating
+the access, discovery and dissemination of omics datasets. OmicsDI provides a unique infrastructure to integrate datasets
+coming from multiple omics fields, including at present proteomics, genomics, metabolomics, and transcriptomics.&lt;/p&gt;
+
+&lt;p&gt;To date, &lt;a href=&#34;www.omicsdi.org/databases/&#34;&gt;eleven resources&lt;/a&gt; have agreed on a common metadata structure framework and exchange format,
+and have contributed to OmicsDI, including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Proteomics&lt;/code&gt;: The PRoteomics IDEntifications (PRIDE) database, PeptideAtlas, the Mass spectrometry Interactive Virtual Environment (MassIVE)
+and the Global Proteome Machine Database (GPMDB).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Metabolomics&lt;/code&gt;: MetaboLights, the Global Natural Products Social Molecular Networking project (GNPS),
+MetabolomeExpress, and the Metabolomics Workbench.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;The major European Genome-Phenome Archive (EGA)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Transcriptomics&lt;/code&gt;:  ArrayExpress and Expression Atlas.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;OmicsDI stores biological and technical metadata coming from the public datasets available in every resource,
+using an efficient indexing system, which is able to integrate different
+biological entities including &lt;code&gt;genes&lt;/code&gt;, &lt;code&gt;transcripts&lt;/code&gt;, &lt;code&gt;proteins&lt;/code&gt; and &lt;code&gt;metabolites&lt;/code&gt; with the relevant scientific literature.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;[1] Perez‐Riverol, Yasset, et al. &amp;ldquo;Making proteomics data accessible and reusable: current state of proteomics databases and repositories.&amp;rdquo;
+Proteomics 15.5-6 (2015): 930-950.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>OmicsDI Major Partners</title>
-      <link>http://omicsdi.github.io/post/partners/</link>
+      <link>https://omicsdi.github.io/post/partners/</link>
       <pubDate>Fri, 17 Feb 2017 23:09:18 +0000</pubDate>
       
-      <guid>http://omicsdi.github.io/post/partners/</guid>
+      <guid>https://omicsdi.github.io/post/partners/</guid>
       <description>
 
 &lt;p&gt;OmicsDI has been build with the collaboration of multiple Consortium&amp;rsquo;s and individual Databases. This collaboration has enabled
@@ -59,7 +207,7 @@ At the same time, OmicsDI has collaborated with other individual archives and da
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://omicsdi.github.io/media/PX_logo.png&#34; /&gt;
+        &lt;img src=&#34;https://omicsdi.github.io/media/PX_logo.png&#34; /&gt;
     
     
 &lt;/figure&gt;
@@ -78,7 +226,7 @@ All ProteomeXchange data is fully open after release of the associated publicati
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://omicsdi.github.io/media/metabolomexchange.png&#34; /&gt;
+        &lt;img src=&#34;https://omicsdi.github.io/media/metabolomexchange.png&#34; /&gt;
     
     
 &lt;/figure&gt;
@@ -96,7 +244,7 @@ Comprehensive Metabolomics Resource Cores.&lt;/p&gt;
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://omicsdi.github.io/media/ega_logo.png&#34; /&gt;
+        &lt;img src=&#34;https://omicsdi.github.io/media/ega_logo.png&#34; /&gt;
     
     
 &lt;/figure&gt;

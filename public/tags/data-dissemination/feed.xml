@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Introduction on OmicsDI Blog</title>
-    <link>https://omicsdi.github.io/tags/introduction/</link>
-    <description>Recent content in Introduction on OmicsDI Blog</description>
+    <title>Data Dissemination on OmicsDI Blog</title>
+    <link>https://omicsdi.github.io/tags/data-dissemination/</link>
+    <description>Recent content in Data Dissemination on OmicsDI Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 17 Feb 2017 23:48:18 +0000</lastBuildDate>
-    <atom:link href="https://omicsdi.github.io/tags/introduction/feed/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://omicsdi.github.io/tags/data-dissemination/feed/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Welcome to OmicsDI Edu page</title>
@@ -186,77 +186,6 @@ biological entities including &lt;code&gt;genes&lt;/code&gt;, &lt;code&gt;transc
 &lt;li&gt;[1] Perez‐Riverol, Yasset, et al. &amp;ldquo;Making proteomics data accessible and reusable: current state of proteomics databases and repositories.&amp;rdquo;
 Proteomics 15.5-6 (2015): 930-950.&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>OmicsDI Major Partners</title>
-      <link>https://omicsdi.github.io/post/partners/</link>
-      <pubDate>Fri, 17 Feb 2017 23:09:18 +0000</pubDate>
-      
-      <guid>https://omicsdi.github.io/post/partners/</guid>
-      <description>
-
-&lt;p&gt;OmicsDI has been build with the collaboration of multiple Consortium&amp;rsquo;s and individual Databases. This collaboration has enabled
-the standardization of the metadata across multiple resources and omics type. Each Consortium group a set of databases around
-the same topic (e.g. proteomics) and has previously agree in a common metadata including Ontology Terms, Study Design, etc.
-At the same time, OmicsDI has collaborated with other individual archives and databases such as ArrayExpress or EGA.&lt;/p&gt;
-
-&lt;h2 id=&#34;proteomexchange:5932cdc855493deada113a5ffc623113&#34;&gt;ProteomeXchange&lt;/h2&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;https://omicsdi.github.io/media/PX_logo.png&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;The &lt;a href=&#34;wwww.proteomexchange.org&#34;&gt;ProteomeXchange Consortium&lt;/a&gt; is a collaboration of currently three major mass spectrometry
-proteomics data repositories, &lt;a href=&#34;www.ebi.ac.uk/pride/archive&#34;&gt;PRIDE&lt;/a&gt; at EMBL-EBI in Cambridge (UK), &lt;a href=&#34;www.peptideatlas.org&#34;&gt;PeptideAtlas&lt;/a&gt;
-at ISB in Seattle (US), and &lt;a href=&#34;massive.ucsd.edu&#34;&gt;MASSive&lt;/a&gt; at UCSD (US) and &lt;a href=&#34;http://jpostdb.org/&#34;&gt;jPOST&lt;/a&gt;
-offering a unified data deposition and discovery strategy across all three repositories. ProteomeXchange is a
-distributed database infrastructure; the potentially very large raw data component of the data is only held at
-the original submission database, while the searchable metadata is centrally collected and indexed.
-All ProteomeXchange data is fully open after release of the associated publication.&lt;/p&gt;
-
-&lt;h2 id=&#34;metabolomexchange:5932cdc855493deada113a5ffc623113&#34;&gt;MetabolomeXchange&lt;/h2&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;https://omicsdi.github.io/media/metabolomexchange.png&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;&lt;a href=&#34;http://www.metabolomexchange.org/site/&#34;&gt;MetabolomeXchange&lt;/a&gt; is a collaboration of 4 major metabolomics repositories,
-with a total of 10 partners contributing. MetabolomeXchange was inspired by and is implementing similar coordination
-strategies to ProteomeXchange. The founding partners are &lt;a href=&#34;www.ebi.ac.uk/metabolights/&#34;&gt;MetaboLights&lt;/a&gt; at EMBL-EBI(UK),
-Metabolomics Repository Bordeaux(FR), Golm Metabolome Database and the Metabolomics Workbench (US).
-The &lt;a href=&#34;metabolomicsworkbench.org/&#34;&gt;Metabolomics Workbench&lt;/a&gt; is a NIH funded collaboration of 6 Regional
-Comprehensive Metabolomics Resource Cores.&lt;/p&gt;
-
-&lt;h2 id=&#34;the-european-genome-phenome-archive:5932cdc855493deada113a5ffc623113&#34;&gt;The European Genome-Phenome Archive&lt;/h2&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;https://omicsdi.github.io/media/ega_logo.png&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;p&gt;The &lt;a href=&#34;https://www.ebi.ac.uk/ega/home&#34;&gt;European Genome-Phenome Archive&lt;/a&gt; (EGA) provides a service for the permanent archiving and distribution of
-personally identifiable genetic and phenotypic data resulting from biomedical research projects.
-Data at EGA was collected from individuals whose consent agreements authorise data release only for specific
-research use to bona fide researchers. Strict protocols govern how information is managed, stored and
-distributed by the EGA project. The EGA comprises a public metadata section, allowing searching and identifying
-relevant studies, and the controlled access data section. Access to the data section for a particular study is only
-granted after validation of a research proposal through the relevant ethics approval.&lt;/p&gt;
 </description>
     </item>
     

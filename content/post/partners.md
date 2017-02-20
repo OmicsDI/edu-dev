@@ -4,6 +4,7 @@ title = "OmicsDI Major Partners"
 tags        = [ "Introduction", "OmicsDI", "Partners"]
 topics      = [ "Blog Posts" ]
 categories  = [ "Blog Posts" ]
+toc = true
 +++
 
 OmicsDI has been build with the collaboration of multiple Consortium's and individual Databases. This collaboration has enabled
