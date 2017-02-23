@@ -19,6 +19,8 @@ RSSUri = "feed.xml"
   Subtitle    = "Linking new Knowledge in Public Data"
   Twitter     = "omicsdi"
   GitHub      = "omicsdi"
+  Gitter      = "https://gitter.im/BD2K-DDI/OmicsDI-Support"
+  Home        = "https://omicsdi.github.io/"
   Imglogo     = "img/OmicsDI-icon-3.png"
   AuthorImg   = "img/OmicsDI-icon-3.png"
   DateFormat  = "2006/01/02"
@@ -50,7 +52,15 @@ RSSUri = "feed.xml"
     Name = "Home"
     URL = "/"
     Weight = 1
+
   [[Menu.Main]]
     Name = "OmicsDI"
     URL = "http://www.omicsdi.org"
     Weight = 2
+
+  [[Menu.Main]]
+    Name = "GitHub"
+    URL = "http://github.com/OmicsDI"
+    Weight = 2
+
+

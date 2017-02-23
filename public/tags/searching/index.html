@@ -24,6 +24,9 @@
   <script>hljs.initHighlightingOnLoad();</script>
   <link rel="stylesheet" href="https://omicsdi.github.io/font/hack/css/hack.min.css">
   <link rel="stylesheet" href="https://omicsdi.github.io/css/style.css">
+  <link rel="stylesheet" href="https://omicsdi.github.io/css/horsey.css">
+  <link rel="stylesheet" href="https://omicsdi.github.io/css/font-awesome.min.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 </head>
 
 <body>
@@ -44,14 +47,23 @@
       
       <li><a href="/">Home</a></li>
       
+      <li><a href="http://github.com/OmicsDI">GitHub</a></li>
+      
       <li><a href="http://www.omicsdi.org">OmicsDI</a></li>
       
       <li>
-        <form class="search" method="get" action="https://www.google.com/search">
-          <div>
-            <input type="text" id="search" name="q" placeholder="Search">
-          </div>
-        </form>
+        
+        <div class="searchbox">
+          <label for="search-by"><i class="fa fa-search"></i></label>
+          <input id="search-by" type="text" placeholder="Search">
+          <span data-search-clear=""><i class="fa fa-close"></i></span>
+        </div>
+        <script type="text/javascript" src="https://omicsdi.github.io/js/lunr.min.js"></script>
+        <script type="text/javascript" src="https://omicsdi.github.io/js/horsey.js"></script>
+        <script type="text/javascript">
+            var baseurl = "https:\/\/omicsdi.github.io\/";
+        </script>
+        <script type="text/javascript" src="https://omicsdi.github.io/js/search.js"></script>
       </li>
     </ul>
   </nav>
@@ -238,6 +250,9 @@
     <a href="https://github.com/omicsdi" target="_blank" title="github"></a>
     
     
+    
+    
+    <a href="https://gitter.im/BD2K-DDI/OmicsDI-Support" target="_blank" title="phone-square"></a>
     
   </div>
   <p class="copyright">Powered by <a href="http://gohugo.io" target="_blank" title="hugo">hugo</a> and Theme by <a href="https://github.com/coderzh/hugo-pacman-theme" target="_blank" title="hugo-pacman-theme">hugo-pacman-theme</a> © 2017

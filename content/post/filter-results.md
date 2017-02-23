@@ -17,7 +17,7 @@ The OmicsDI web application supports at the moment nine different refinements: `
 
 ## Filter Box
 
-{{< figure src="/media/filter-box-typing.png" title="Figure 2: Tissue Filter Box" class="left" width="300">}}
+{{< figure src="/media/filter-box-typing.png" title="Figure 2: Tissue Filter Box" class="left" id="figure-shadow" width="300">}}
 
 Each ``Filter Box`` shows the number of datasets within each category (e.g tissue type). The ``user`` can search in the  **textfield**
 for a certain category and the system will filter the categories by the keywords the user specify. For example (**Figure 2**), the user is interested
