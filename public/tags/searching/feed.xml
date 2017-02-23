@@ -39,11 +39,11 @@ OmicsDI has implemented a &lt;strong&gt;unique&lt;/strong&gt; and &lt;strong&gt;
 &lt;p&gt;The &lt;code&gt;OmicsDI Search Box&lt;/code&gt; is the main component to searching in OmicsDI. The &lt;code&gt;user&lt;/code&gt; can type a set of &lt;strong&gt;keywords&lt;/strong&gt; that will enable the system
 to find the datasets containing those keywords.&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span&gt;&lt;/span&gt;If the user use double quote &lt;span class=&#34;s2&#34;&gt;&amp;quot;breast cancer&amp;quot;&lt;/span&gt; in their search the system will try to find the exact sentence in the datasets.
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span&gt;&lt;/span&gt;If the user uses double quote &lt;span class=&#34;s2&#34;&gt;&amp;quot;breast cancer&amp;quot;&lt;/span&gt; in their search the system will try to find the exact sentence in the datasets.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;The &lt;code&gt;OmicsDI Search Box&lt;/code&gt; provides a unique &lt;strong&gt;auto-complete&lt;/strong&gt; feature that enable &lt;code&gt;user&lt;/code&gt; to select sentence after typing a subset of keywords. For example,
+&lt;p&gt;The &lt;code&gt;OmicsDI Search Box&lt;/code&gt; provides a unique &lt;strong&gt;auto-complete&lt;/strong&gt; feature that enables &lt;code&gt;user&lt;/code&gt; to select sentence after typing a subset of keywords. For example,
 Figure 2 shows all sentences/phrases in OmicsDI containing the words &lt;em&gt;breast cancer&lt;/em&gt;.&lt;/p&gt;
 
 
@@ -63,14 +63,14 @@ Figure 2 shows all sentences/phrases in OmicsDI containing the words &lt;em&gt;b
 &lt;h2 id=&#34;query-syntax:b52c04c2105c538bbdc8450470d85aba&#34;&gt;Query Syntax&lt;/h2&gt;
 
 &lt;p&gt;When the user types any text in &lt;code&gt;OmicsDI Search Box&lt;/code&gt;, the input is translated into an &lt;a href=&#34;http://lucene.apache.org/&#34;&gt;Apache Lucene query&lt;/a&gt; that is then executed
-to get the search results. The actual query executed is generated following the typical  Apache Lucene query syntax  in order to
+to get the search results. The actual query executed is generated following the typical Apache Lucene query syntax in order to
 provide a generic approach avoiding complex query rearrangements.&lt;/p&gt;
 
 &lt;p&gt;Multiple search terms separated by white spaces are combined by default in &lt;code&gt;AND&lt;/code&gt; logic. Therefore an input text containing for example
 &lt;code&gt;glutathione transferase&lt;/code&gt; is treated as &lt;code&gt;glutathione AND transferase&lt;/code&gt; and only entries having both terms will be found. The default order
 of results is based on their relevance, i.e. the proximity of the terms in the entries.&lt;/p&gt;
 
-&lt;p&gt;In the Table 1 below an overview of some useful query syntax elements is presented.&lt;/p&gt;
+&lt;p&gt;Table 1: Overview of some useful query syntax elements is presented.&lt;/p&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -150,7 +150,7 @@ of results is based on their relevance, i.e. the proximity of the terms in the e
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;Since Apache Lucene supports regular expression searches (matching a pattern between forward slashes) the forward slash &amp;lsquo; / &amp;rsquo; has become a special character to be escaped. For example to search for
+&lt;p&gt;Since Apache Lucene supports regular expression searches (matching a pattern between forwarding slashes) the forward slash &amp;lsquo; / &amp;rsquo; has become a special character to be escaped. For example to search for
 &lt;code&gt;cancer/testis&lt;/code&gt; use the query &lt;code&gt;cancer\/testis&lt;/code&gt;. If special characters are not escaped the actual query performed may be different from what expected.&lt;/p&gt;
 
 &lt;h4 id=&#34;query-examples:b52c04c2105c538bbdc8450470d85aba&#34;&gt;Query examples&lt;/h4&gt;
@@ -163,10 +163,10 @@ A few examples of queries that can be performed using EBI Search are listed belo
 &lt;li&gt;Search Datasets that identified &lt;a href=&#34;http://www.omicsdi.org/search?q=(UNIPROT:%20(%22P07900%22))&#34;&gt;P07900&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;searching-using-biological-evidences:b52c04c2105c538bbdc8450470d85aba&#34;&gt;Searching using Biological Evidences&lt;/h2&gt;
+&lt;h2 id=&#34;searching-using-biological-evidence:b52c04c2105c538bbdc8450470d85aba&#34;&gt;Searching using Biological Evidence&lt;/h2&gt;
 
-&lt;p&gt;The &lt;code&gt;OmicsDI Search Box&lt;/code&gt; allows the end-users to search data using biological evidences such as the list of the proteins identified in the proteomics experiment or the metabolite
-reported in the Metabolomics experiment. For example (Figure 3), if the user search for &lt;code&gt;3-methyl-2-oxobutanoic&lt;/code&gt; in the resource it will found one dataset in Metaboligths and five in Metabolome workbench
+&lt;p&gt;The &lt;code&gt;OmicsDI Search Box&lt;/code&gt; allows the end-users to search data using biological evidence such as the list of the proteins identified in the proteomics experiment or the metabolite
+reported in the Metabolomics experiment. For example (Figure 3), if the user searches for &lt;code&gt;3-methyl-2-oxobutanoic&lt;/code&gt; in the resource it will found one dataset in Metaboligths and five in Metabolome workbench
 that identified the current molecule.&lt;/p&gt;
 
 &lt;p&gt;
@@ -188,15 +188,15 @@ that identified the current molecule.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Navigation Omics from Home Page</title>
+      <title>Navigation Omics from home page</title>
       <link>https://omicsdi.github.io/post/navigation-from-home/</link>
       <pubDate>Mon, 20 Feb 2017 01:17:55 +0000</pubDate>
       
       <guid>https://omicsdi.github.io/post/navigation-from-home/</guid>
-      <description>&lt;p&gt;The &lt;a href=&#34;www.omicsdi.org&#34;&gt;OmicsDI Home Page&lt;/a&gt; provides different blocks to navigate through the datasets, some of them
+      <description>&lt;p&gt;The &lt;a href=&#34;www.omicsdi.org&#34;&gt;OmicsDI Home Page&lt;/a&gt; provides different blocks for navigating through the datasets, some of them
 are: &lt;code&gt;2D WordCloud&lt;/code&gt;; the species/organism/diseases &lt;code&gt;Bubble Chart&lt;/code&gt;, repo/omics &lt;code&gt;Bar Chart&lt;/code&gt;, &lt;code&gt;Latest Datasets List&lt;/code&gt;,
 &lt;code&gt;Most Accessed Datasets&lt;/code&gt; List, &lt;code&gt;Datasets per year&lt;/code&gt; List. All the charts allow the user to search the data using
-the specific attribute. These boxes also act as an statistic component of the resource: for example the pie chart shows how many datasets
+the specific attribute. These boxes also act as a statistic component of the resource: for example, the pie chart shows how many datasets
 for each repository and omics the resource contains.&lt;/p&gt;
 
 
@@ -208,14 +208,14 @@ for each repository and omics the resource contains.&lt;/p&gt;
 &lt;/figure&gt;
 
 
-&lt;p&gt;A &lt;code&gt;TagCloud&lt;/code&gt; or &lt;code&gt;WordCloud&lt;/code&gt; is a visual representation for metadata, typically used to depict keyword metadata (tags)
+&lt;p&gt;A &lt;code&gt;TagCloud&lt;/code&gt; or &lt;code&gt;WordCloud&lt;/code&gt; is a visual representation of metadata, typically used to depict keyword metadata (tags)
 on datasets, or to visualize free form text. The &lt;code&gt;WordCloud&lt;/code&gt; is build using the more frequently words for every
-database/repository. The OmicsDI &lt;code&gt;WordCloud&lt;/code&gt; can be consider as a two dimensional term representation where the user can
-select the database and the field they want to look for: description vs database. The user can click the highlight word in
+database/repository. The OmicsDI &lt;code&gt;WordCloud&lt;/code&gt; can be considered as a two-dimensional term representation where the user can
+select the database and the field they want to look for: description vs database. The user can click the highlighted word in
 the wordcloud to search for this term in the resource.&lt;/p&gt;
 
 &lt;p&gt;The &lt;code&gt;Bubble Chart&lt;/code&gt; block allows the users to navigate the data using three main categories: Tissues, Organisms,
-and Diseases. The user can click in the bubble and it will be redirected to the search using the clicked term.&lt;/p&gt;
+and Diseases. The user can click on the bubble and it will be redirected to the search using the clicked term.&lt;/p&gt;
 
 &lt;p&gt;The Repo/Omics &lt;code&gt;Bar Chart&lt;/code&gt; and the Omics vs Year bar chart allow the users navigate the data using the omics categories
 (&lt;strong&gt;metabolomics&lt;/strong&gt;, &lt;strong&gt;transcriptomics&lt;/strong&gt;, &lt;strong&gt;proteomics&lt;/strong&gt; and &lt;strong&gt;genomics&lt;/strong&gt;). The &lt;code&gt;user&lt;/code&gt; can click a bar or the pie and it will

@@ -30,7 +30,7 @@ publicly available in the contributing repositories.&lt;/p&gt;
 &lt;h2 id=&#34;omics-data-submission:acb49c8cd62da07b088168eb054ae884&#34;&gt;Omics Data Submission&lt;/h2&gt;
 
 &lt;p&gt;The increasing role of huge datasets in scientific research has important implications for the way the research
-is conducted, for the way it should be organised and funded, and for the training of new researchers.
+is conducted, for the way it should be organized and funded, and for the training of new researchers.
 However, the advances in biomedical research depend on scientists’ ability to consult and use all available data,
 independently from where they were originally produced: data sharing on a global scale is the best way to
 ‘advance science for the public good’.&lt;/p&gt;
@@ -52,22 +52,22 @@ the more those data will be used to produce new knowledge about biological pheno
 &lt;/figure&gt;
 
 
-&lt;p&gt;Figure 1 shows how data is produced/store and distributed in biomedical research. The result of an omics experiment (e.g Proteomics or Metabolomics)
+&lt;p&gt;Figure 1 shows how data is produced/stored and distributed in biomedical research. The result of an omics experiment (e.g Proteomics or Metabolomics)
 is submitted to a public Archive (e.g PRIDE or Metaboligths). These &lt;code&gt;Data Archives&lt;/code&gt; provide a common interface for &lt;strong&gt;submission&lt;/strong&gt;,
 &lt;strong&gt;validation&lt;/strong&gt; and &lt;strong&gt;downloading&lt;/strong&gt; of the original results/data. Importantly, each individual repository/archive define three major
 components to guide the submission process:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;The metadata guidelines including Standards and Ontologies to define/describe a datasets and corresponding components (e.g. samples, instruments).&lt;/li&gt;
+&lt;li&gt;The metadata guidelines including Standards and Ontologies to define/describe a dataset and corresponding components (e.g. samples, instruments).&lt;/li&gt;
 &lt;li&gt;File formats to store and handle the underlying data in the Dataset.&lt;/li&gt;
 &lt;li&gt;The submission guidelines define how to submit and retrieve the data from the repository.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;In recent years the number of databases and archives has growth in all omics fields [1]. For example,
 in Proteomics the results of a Mass spectrometry experiment can be submitted to four different databases members of
-&lt;a href=&#34;www.proteomexchange.org&#34;&gt;ProteomeXchange&lt;/a&gt;: PeptideAtlas/PASSEL, PRIDE, MassIVE, jPOST. In addition, each Omics field
-has developed and growth independently of the other fields including their metadata specifications, file formats and submission
-guidelines. For this reason most of the &lt;code&gt;Data Archives&lt;/code&gt; are field specific (e.g. Metabolomics - Metaboligths, Metabolomics Workbench).&lt;/p&gt;
+&lt;a href=&#34;www.proteomexchange.org&#34;&gt;ProteomeXchange&lt;/a&gt;: PeptideAtlas/PASSEL, PRIDE, MassIVE, jPOST. In addition, each omics field
+has developed and growth independently of the other fields including their metadata specifications, file formats, and submission
+guidelines. For this reason, most of the &lt;code&gt;Data Archives&lt;/code&gt; are field specific (e.g. Metabolomics - Metaboligths, Metabolomics Workbench).&lt;/p&gt;
 
 &lt;h2 id=&#34;omics-data-dissemination:acb49c8cd62da07b088168eb054ae884&#34;&gt;Omics Data Dissemination&lt;/h2&gt;
 
@@ -156,12 +156,12 @@ Peptides Sequences, Post-Translational Modifications).&lt;/p&gt;
 &lt;/figure&gt;
 
 
-&lt;p&gt;All these databases/repositories has created a complex and distributed scenario where the data can
+&lt;p&gt;All these databases/repositories have created a complex and distributed scenario where the data can
 be submitted into different &lt;code&gt;Archives&lt;/code&gt; and reuse in multiple and different &lt;code&gt;DBs&lt;/code&gt;. The development of tools
 facilitating &lt;strong&gt;data sharing&lt;/strong&gt; and able to handle this complexity is a great challenge in itself.&lt;/p&gt;
 
-&lt;p&gt;In this context, we introduce here the &lt;a href=&#34;http://www.omicsdi.org&#34;&gt;Omics Discovery Index&lt;/a&gt;, an open source platform facilitating
-the access, discovery and dissemination of omics datasets. OmicsDI provides a unique infrastructure to integrate datasets
+&lt;p&gt;In this context, we introduce here the &lt;a href=&#34;http://www.omicsdi.org&#34;&gt;Omics Discovery Index&lt;/a&gt;, an open-source platform facilitating
+the access, discovery, and dissemination of omics datasets. OmicsDI provides a unique infrastructure to integrate datasets
 coming from multiple omics fields, including at present proteomics, genomics, metabolomics, and transcriptomics.&lt;/p&gt;
 
 &lt;p&gt;To date, &lt;a href=&#34;www.omicsdi.org/databases/&#34;&gt;eleven resources&lt;/a&gt; have agreed on a common metadata structure framework and exchange format,
@@ -177,7 +177,7 @@ MetabolomeExpress, and the Metabolomics Workbench.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;OmicsDI stores biological and technical metadata coming from the public datasets available in every resource,
-using an efficient indexing system, which is able to integrate different
+using an efficient indexing system, which is able to integrate differently
 biological entities including &lt;code&gt;genes&lt;/code&gt;, &lt;code&gt;transcripts&lt;/code&gt;, &lt;code&gt;proteins&lt;/code&gt; and &lt;code&gt;metabolites&lt;/code&gt; with the relevant scientific literature.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
@@ -190,14 +190,14 @@ Proteomics 15.5-6 (2015): 930-950.&lt;/li&gt;
     </item>
     
     <item>
-      <title>OmicsDI Major Partners</title>
+      <title>OmicsDI major partners</title>
       <link>https://omicsdi.github.io/post/partners/</link>
       <pubDate>Fri, 17 Feb 2017 23:09:18 +0000</pubDate>
       
       <guid>https://omicsdi.github.io/post/partners/</guid>
       <description>
 
-&lt;p&gt;OmicsDI has been build with the collaboration of multiple Consortium&amp;rsquo;s and individual Databases. This collaboration has enabled
+&lt;p&gt;OmicsDI has been built with the collaboration of multiple Consortia and individual Databases. This collaboration has enabled
 the standardization of the metadata across multiple resources and omics type. Each Consortium group a set of databases around
 the same topic (e.g. proteomics) and has previously agree in a common metadata including Ontology Terms, Study Design, etc.
 At the same time, OmicsDI has collaborated with other individual archives and databases such as ArrayExpress or EGA.&lt;/p&gt;
@@ -219,7 +219,7 @@ at ISB in Seattle (US), and &lt;a href=&#34;massive.ucsd.edu&#34;&gt;MASSive&lt;
 offering a unified data deposition and discovery strategy across all three repositories. ProteomeXchange is a
 distributed database infrastructure; the potentially very large raw data component of the data is only held at
 the original submission database, while the searchable metadata is centrally collected and indexed.
-All ProteomeXchange data is fully open after release of the associated publication.&lt;/p&gt;
+All ProteomeXchange data is fully open after the release of the associated publication.&lt;/p&gt;
 
 &lt;h2 id=&#34;metabolomexchange:5932cdc855493deada113a5ffc623113&#34;&gt;MetabolomeXchange&lt;/h2&gt;
 
@@ -236,7 +236,7 @@ All ProteomeXchange data is fully open after release of the associated publicati
 with a total of 10 partners contributing. MetabolomeXchange was inspired by and is implementing similar coordination
 strategies to ProteomeXchange. The founding partners are &lt;a href=&#34;www.ebi.ac.uk/metabolights/&#34;&gt;MetaboLights&lt;/a&gt; at EMBL-EBI(UK),
 Metabolomics Repository Bordeaux(FR), Golm Metabolome Database and the Metabolomics Workbench (US).
-The &lt;a href=&#34;metabolomicsworkbench.org/&#34;&gt;Metabolomics Workbench&lt;/a&gt; is a NIH funded collaboration of 6 Regional
+The &lt;a href=&#34;metabolomicsworkbench.org/&#34;&gt;Metabolomics Workbench&lt;/a&gt; is an NIH-funded collaboration of 6 Regional
 Comprehensive Metabolomics Resource Cores.&lt;/p&gt;
 
 &lt;h2 id=&#34;the-european-genome-phenome-archive:5932cdc855493deada113a5ffc623113&#34;&gt;The European Genome-Phenome Archive&lt;/h2&gt;
@@ -251,9 +251,7 @@ Comprehensive Metabolomics Resource Cores.&lt;/p&gt;
 
 
 &lt;p&gt;The &lt;a href=&#34;https://www.ebi.ac.uk/ega/home&#34;&gt;European Genome-Phenome Archive&lt;/a&gt; (EGA) provides a service for the permanent archiving and distribution of
-personally identifiable genetic and phenotypic data resulting from biomedical research projects.
-Data at EGA was collected from individuals whose consent agreements authorise data release only for specific
-research use to bona fide researchers. Strict protocols govern how information is managed, stored and
+personally identifiable genetic and phenotypic data resulting from biomedical research projects. Strict protocols govern how information is managed, stored and
 distributed by the EGA project. The EGA comprises a public metadata section, allowing searching and identifying
 relevant studies, and the controlled access data section. Access to the data section for a particular study is only
 granted after validation of a research proposal through the relevant ethics approval.&lt;/p&gt;

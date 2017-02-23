@@ -20,10 +20,10 @@ The ``OmicsDI Search Box`` is the main component to searching in OmicsDI. The ``
 to find the datasets containing those keywords.
 
 {{< highlight bash>}}
-If the user use double quote "breast cancer" in their search the system will try to find the exact sentence in the datasets.
+If the user uses double quote "breast cancer" in their search the system will try to find the exact sentence in the datasets.
 {{< / highlight >}}
 
-The ``OmicsDI Search Box`` provides a unique **auto-complete** feature that enable ``user`` to select sentence after typing a subset of keywords. For example,
+The ``OmicsDI Search Box`` provides a unique **auto-complete** feature that enables ``user`` to select sentence after typing a subset of keywords. For example,
 Figure 2 shows all sentences/phrases in OmicsDI containing the words *breast cancer*.
 
 {{< figure src="/media/search-box-autocomplete.png" title="Figure 2: OmicsDI Search Box with Auto-complete" >}}
@@ -32,14 +32,14 @@ Figure 2 shows all sentences/phrases in OmicsDI containing the words *breast can
 ## Query Syntax
 
 When the user types any text in ``OmicsDI Search Box``, the input is translated into an [Apache Lucene query](http://lucene.apache.org/) that is then executed
-to get the search results. The actual query executed is generated following the typical  Apache Lucene query syntax  in order to
+to get the search results. The actual query executed is generated following the typical Apache Lucene query syntax in order to
 provide a generic approach avoiding complex query rearrangements.
 
 Multiple search terms separated by white spaces are combined by default in ``AND`` logic. Therefore an input text containing for example
 ``glutathione transferase`` is treated as ``glutathione AND transferase`` and only entries having both terms will be found. The default order
 of results is based on their relevance, i.e. the proximity of the terms in the entries.
 
-In the Table 1 below an overview of some useful query syntax elements is presented.
+Table 1: Overview of some useful query syntax elements is presented.
 
 
 |    **Element**    |      **Meaning**      |      **Usage**        |                 **Example**                |                             **Notes**                          |
@@ -63,7 +63,7 @@ The following characters within queries require to be escaped (using a ' \ ' bef
 {{< / highlight >}}
 
 
-Since Apache Lucene supports regular expression searches (matching a pattern between forward slashes) the forward slash ' / ' has become a special character to be escaped. For example to search for
+Since Apache Lucene supports regular expression searches (matching a pattern between forwarding slashes) the forward slash ' / ' has become a special character to be escaped. For example to search for
 ``cancer/testis`` use the query ``cancer\/testis``. If special characters are not escaped the actual query performed may be different from what expected.
 
 #### Query examples
@@ -75,10 +75,10 @@ A few examples of queries that can be performed using EBI Search are listed belo
 - Search Datasets that identified <a href="http://www.omicsdi.org/search?q=(UNIPROT:%20(%22P07900%22))">P07900</a>
 
 
-## Searching using Biological Evidences
+## Searching using Biological Evidence
 
-The ``OmicsDI Search Box`` allows the end-users to search data using biological evidences such as the list of the proteins identified in the proteomics experiment or the metabolite
-reported in the Metabolomics experiment. For example (Figure 3), if the user search for ``3-methyl-2-oxobutanoic`` in the resource it will found one dataset in Metaboligths and five in Metabolome workbench
+The ``OmicsDI Search Box`` allows the end-users to search data using biological evidence such as the list of the proteins identified in the proteomics experiment or the metabolite
+reported in the Metabolomics experiment. For example (Figure 3), if the user searches for ``3-methyl-2-oxobutanoic`` in the resource it will found one dataset in Metaboligths and five in Metabolome workbench
 that identified the current molecule.
 
 

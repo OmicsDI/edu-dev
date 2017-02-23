@@ -2,17 +2,17 @@
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Filtering search Results - OmicsDI Blog</title>
+  <title>Filtering search results - OmicsDI Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
   
-  <meta name="description" content="The search results can be filter or refine using different filters or terms (Figure 1). The OmicsDI web application supports at the moment nine different refinements: Omics Type, repository/database, Organisms, Tissue, diseases, Modifications (proteomics), Instruments and platforms, Publication data, Technology type. Figure 1: Filtering results of Search in the Browse Page Filter Box Figure 2: Tissue Filter Box Each Filter Box shows the number of datasets within each category (e.g tissue type).">
+  <meta name="description" content="The search results can be filtered or refine using different filters or terms (Figure 1). The OmicsDI web application supports at the moment nine different refinements: Omics Type, repository/database, Organisms, Tissue, diseases, Modifications (proteomics), Instruments and platforms, Publication data, Technology type. Figure 1: Filtering results of Search in the Browse Page Filter Box Figure 2: Tissue Filter Box Each Filter Box shows the number of datasets within each category (e.g tissue type).">
   <meta name="author" content="OmicsDI Team">
-  <meta itemprop="name" content="Filtering search Results - OmicsDI Blog">
-  <meta itemprop="description" content="The search results can be filter or refine using different filters or terms (Figure 1). The OmicsDI web application supports at the moment nine different refinements: Omics Type, repository/database, Organisms, Tissue, diseases, Modifications (proteomics), Instruments and platforms, Publication data, Technology type. Figure 1: Filtering results of Search in the Browse Page Filter Box Figure 2: Tissue Filter Box Each Filter Box shows the number of datasets within each category (e.g tissue type).">
+  <meta itemprop="name" content="Filtering search results - OmicsDI Blog">
+  <meta itemprop="description" content="The search results can be filtered or refine using different filters or terms (Figure 1). The OmicsDI web application supports at the moment nine different refinements: Omics Type, repository/database, Organisms, Tissue, diseases, Modifications (proteomics), Instruments and platforms, Publication data, Technology type. Figure 1: Filtering results of Search in the Browse Page Filter Box Figure 2: Tissue Filter Box Each Filter Box shows the number of datasets within each category (e.g tissue type).">
   <meta itemprop="image" content="https://omicsdi.github.io/img/author.jpg">
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@omicsdi" />
-  <meta name="twitter:title" content="Filtering search Results - OmicsDI Blog" />
+  <meta name="twitter:title" content="Filtering search results - OmicsDI Blog" />
   
   <meta name="twitter:description" content="">
   
@@ -75,7 +75,7 @@
 	<article itemprop="articleBody">
     <header class="article-info clearfix">
   <h1 itemprop="name">
-      <a href="https://omicsdi.github.io/post/filter-results/" title="Filtering search Results" itemprop="url">Filtering search Results</a>
+      <a href="https://omicsdi.github.io/post/filter-results/" title="Filtering search results" itemprop="url">Filtering search results</a>
   </h1>
   <p class="article-author">By
     
@@ -91,7 +91,7 @@
     
     
 
-<p>The search results can be filter or refine using different <code>filters</code> or <code>terms</code> (Figure 1).
+<p>The search results can be filtered or refine using different <code>filters</code> or <code>terms</code> (Figure 1).
 The OmicsDI web application supports at the moment nine different refinements: <code>Omics Type</code>, <code>repository/database</code>,
 <code>Organisms</code>, <code>Tissue, diseases</code>,  <code>Modifications (proteomics)</code>, <code>Instruments and platforms</code>, <code>Publication data</code>,
 <code>Technology type</code>.</p>
@@ -130,9 +130,9 @@ The OmicsDI web application supports at the moment nine different refinements: <
 
 <p>Each <code>Filter Box</code> shows the number of datasets within each category (e.g tissue type). The <code>user</code> can search in the  <strong>textfield</strong>
 for a certain category and the system will filter the categories by the keywords the user specify. For example (<strong>Figure 2</strong>), the user is interested
-in <code>brain</code> tissue, then it can see all the tissues containing the keyword <code>brain</code>. Finally by clicking the dsired</p>
+in <code>brain</code> tissue, then it can see all the tissues containing the keyword <code>brain</code>. Finally by clicking the desired.</p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>Notice that most of the filters are Free-Text based meaning that their values relies on the
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>Notice that most of the filters are Free-Text based meaning that their values rely on the
 annotations provided by the specific databases.
 
 OmicsDI Team is always improving the automatic annotation system to move more attributes/properties of the dataset
@@ -159,16 +159,13 @@ from Free-Text to ontology-based values.
 </p>
 
 <p>The final results of the search can be sorted by three different categories: <code>Accession</code>, <code>Relevance</code>, <code>Publication Date</code>. The
-<code>Accession</code> is the accession of the datasets in the system; the <code>Relevance</code> is how close is the dataset is two the specific query; the
+<code>Accession</code> is the accession of the datasets in the system; the <code>Relevance</code> is how close is the dataset to specific query; the
 <code>Publication Date</code> sort the datasets by publication date.</p>
 
 <p><strong>Relevance</strong></p>
 
 <p><div class="highlight"><pre><code class="language-html" data-lang="html"><span></span>The actual search is done via a call to Apache Lucene, which takes two arguments: the query and an upper bound on the number of hits (datasets) to return.
-
-Lucene scoring uses a combination of the Vector Space Model (VSM) of Information Retrieval and the Boolean model to determine how relevant a given Document is to a User&#39;s query. In general, the idea behind the VSM is the more times a query term appears in a document relative to the number of times the term appears in all the documents in the collection, the more relevant that
-
-document is to the query. It uses the Boolean model to first narrow down the documents that need to be scored based on the use of boolean logic in the Query specification. Lucene also adds some capabilities and refinements onto this model to support boolean and fuzzy searching, but it essentially remains a VSM based system at the heart.
+Lucene scoring uses a combination of the Vector Space Model (VSM) of Information Retrieval and the Boolean model to determine how relevant a given Document is to a User&#39;s query. In general, the idea behind the VSM is the more times a query term appears in a document relative to the number of times the term appears in all the documents in the collection, the more relevant that document is to the query. It uses the Boolean model to first narrow down the documents that need to be scored based on the use of boolean logic in the Query specification. Lucene also adds some capabilities and refinements onto this model to support boolean and fuzzy searching, but it essentially remains a VSM based system at the heart.
 </code></pre></div>
 </p>
 
@@ -207,7 +204,7 @@ document is to the query. It uses the Boolean model to first narrow down the doc
 
 
   <div class="article-share" id="share">
-    <div data-url="https://omicsdi.github.io/post/filter-results/" data-title="Filtering search Results" data-tsina="" class="share clearfix">
+    <div data-url="https://omicsdi.github.io/post/filter-results/" data-title="Filtering search results" data-tsina="" class="share clearfix">
     </div>
   </div>
 </footer>

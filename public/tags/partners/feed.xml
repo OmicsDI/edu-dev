@@ -10,14 +10,14 @@
     <atom:link href="https://omicsdi.github.io/tags/partners/feed/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>OmicsDI Major Partners</title>
+      <title>OmicsDI major partners</title>
       <link>https://omicsdi.github.io/post/partners/</link>
       <pubDate>Fri, 17 Feb 2017 23:09:18 +0000</pubDate>
       
       <guid>https://omicsdi.github.io/post/partners/</guid>
       <description>
 
-&lt;p&gt;OmicsDI has been build with the collaboration of multiple Consortium&amp;rsquo;s and individual Databases. This collaboration has enabled
+&lt;p&gt;OmicsDI has been built with the collaboration of multiple Consortia and individual Databases. This collaboration has enabled
 the standardization of the metadata across multiple resources and omics type. Each Consortium group a set of databases around
 the same topic (e.g. proteomics) and has previously agree in a common metadata including Ontology Terms, Study Design, etc.
 At the same time, OmicsDI has collaborated with other individual archives and databases such as ArrayExpress or EGA.&lt;/p&gt;
@@ -39,7 +39,7 @@ at ISB in Seattle (US), and &lt;a href=&#34;massive.ucsd.edu&#34;&gt;MASSive&lt;
 offering a unified data deposition and discovery strategy across all three repositories. ProteomeXchange is a
 distributed database infrastructure; the potentially very large raw data component of the data is only held at
 the original submission database, while the searchable metadata is centrally collected and indexed.
-All ProteomeXchange data is fully open after release of the associated publication.&lt;/p&gt;
+All ProteomeXchange data is fully open after the release of the associated publication.&lt;/p&gt;
 
 &lt;h2 id=&#34;metabolomexchange:5932cdc855493deada113a5ffc623113&#34;&gt;MetabolomeXchange&lt;/h2&gt;
 
@@ -56,7 +56,7 @@ All ProteomeXchange data is fully open after release of the associated publicati
 with a total of 10 partners contributing. MetabolomeXchange was inspired by and is implementing similar coordination
 strategies to ProteomeXchange. The founding partners are &lt;a href=&#34;www.ebi.ac.uk/metabolights/&#34;&gt;MetaboLights&lt;/a&gt; at EMBL-EBI(UK),
 Metabolomics Repository Bordeaux(FR), Golm Metabolome Database and the Metabolomics Workbench (US).
-The &lt;a href=&#34;metabolomicsworkbench.org/&#34;&gt;Metabolomics Workbench&lt;/a&gt; is a NIH funded collaboration of 6 Regional
+The &lt;a href=&#34;metabolomicsworkbench.org/&#34;&gt;Metabolomics Workbench&lt;/a&gt; is an NIH-funded collaboration of 6 Regional
 Comprehensive Metabolomics Resource Cores.&lt;/p&gt;
 
 &lt;h2 id=&#34;the-european-genome-phenome-archive:5932cdc855493deada113a5ffc623113&#34;&gt;The European Genome-Phenome Archive&lt;/h2&gt;
@@ -71,9 +71,7 @@ Comprehensive Metabolomics Resource Cores.&lt;/p&gt;
 
 
 &lt;p&gt;The &lt;a href=&#34;https://www.ebi.ac.uk/ega/home&#34;&gt;European Genome-Phenome Archive&lt;/a&gt; (EGA) provides a service for the permanent archiving and distribution of
-personally identifiable genetic and phenotypic data resulting from biomedical research projects.
-Data at EGA was collected from individuals whose consent agreements authorise data release only for specific
-research use to bona fide researchers. Strict protocols govern how information is managed, stored and
+personally identifiable genetic and phenotypic data resulting from biomedical research projects. Strict protocols govern how information is managed, stored and
 distributed by the EGA project. The EGA comprises a public metadata section, allowing searching and identifying
 relevant studies, and the controlled access data section. Access to the data section for a particular study is only
 granted after validation of a research proposal through the relevant ethics approval.&lt;/p&gt;
