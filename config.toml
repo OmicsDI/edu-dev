@@ -51,7 +51,7 @@ RSSUri = "feed.xml"
   [[Menu.Main]]
     Name = "Home"
     URL = "/"
-    pre = "<i class='fa fa-info-circle'></i>"
+    pre = "<i class='fa fa-th-large'></i>"
     Weight = 1
 
   [[Menu.Main]]
@@ -65,5 +65,4 @@ RSSUri = "feed.xml"
     URL = "http://github.com/OmicsDI"
     pre = "<i class='fa fa-github'></i>"
     Weight = 3
-
 
