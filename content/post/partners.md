@@ -7,8 +7,8 @@ categories  = [ "Blog Posts" ]
 toc = true
 +++
 
-OmicsDI has been built with the collaboration of multiple Consortia and individual Databases. This collaboration has enabled
-the standardization of the metadata across multiple resources and omics type. Each Consortium group a set of databases around
+OmicsDI has been built with the collaboration of multiple consortia and individual databases. This collaboration has enabled
+the standardization of the metadata across multiple resources and omics type. Each consortium group a set of databases around
 the same topic (e.g. proteomics) and has previously agree in a common metadata including Ontology Terms, Study Design, etc.
 At the same time, OmicsDI has collaborated with other individual archives and databases such as ArrayExpress or EGA.
 
@@ -16,7 +16,7 @@ At the same time, OmicsDI has collaborated with other individual archives and da
 
 {{< figure src="/media/PX_logo.png">}}
 
-The [ProteomeXchange Consortium](wwww.proteomexchange.org) is a collaboration of currently three major mass spectrometry
+The [ProteomeXchange Consortium](wwww.proteomexchange.org) is a collaboration of currently four major mass spectrometry
 proteomics data repositories, [PRIDE](www.ebi.ac.uk/pride/archive) at EMBL-EBI in Cambridge (UK), [PeptideAtlas](www.peptideatlas.org)
 at ISB in Seattle (US), and [MASSive](massive.ucsd.edu) at UCSD (US) and [jPOST](http://jpostdb.org/)
 offering a unified data deposition and discovery strategy across all three repositories. ProteomeXchange is a

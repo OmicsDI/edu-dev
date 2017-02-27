@@ -66,13 +66,13 @@ components to guide the submission process:&lt;/p&gt;
 &lt;p&gt;In recent years the number of databases and archives has growth in all omics fields [1]. For example,
 in Proteomics the results of a Mass spectrometry experiment can be submitted to four different databases members of
 &lt;a href=&#34;www.proteomexchange.org&#34;&gt;ProteomeXchange&lt;/a&gt;: PeptideAtlas/PASSEL, PRIDE, MassIVE, jPOST. In addition, each omics field
-has developed and growth independently of the other fields including their metadata specifications, file formats, and submission
+has developed and grown independently of the other fields including their metadata specifications, file formats, and submission
 guidelines. For this reason, most of the &lt;code&gt;Data Archives&lt;/code&gt; are field specific (e.g. Metabolomics - Metaboligths, Metabolomics Workbench).&lt;/p&gt;
 
 &lt;h2 id=&#34;omics-data-dissemination:acb49c8cd62da07b088168eb054ae884&#34;&gt;Omics Data Dissemination&lt;/h2&gt;
 
 &lt;p&gt;After the data is submitted to a formal &lt;a href=&#39;#omics-data-submission:acb49c8cd62da07b088168eb054ae884&#39;&gt;Archive&lt;/a&gt;, Knowledge Base Databases
-(&lt;code&gt;BDs&lt;/code&gt;) &lt;strong&gt;reuse&lt;/strong&gt; part of the public data to respond specific questions (e.g. Gene Expression Profiles - ExpressionAtlas). The
+(&lt;code&gt;BDs&lt;/code&gt;) &lt;strong&gt;reuse&lt;/strong&gt; part of the public data to respond to specific questions (e.g. Gene Expression Profiles - ExpressionAtlas). The
 number of these &lt;code&gt;DBs&lt;/code&gt; has growth in recent years. For example, Table 1 shows the list of Protein Expression Databases [1] that include
 peptide sequences, post-translational modifications, expression profiles.&lt;/p&gt;
 
@@ -157,7 +157,7 @@ Peptides Sequences, Post-Translational Modifications).&lt;/p&gt;
 
 
 &lt;p&gt;All these databases/repositories have created a complex and distributed scenario where the data can
-be submitted into different &lt;code&gt;Archives&lt;/code&gt; and reuse in multiple and different &lt;code&gt;DBs&lt;/code&gt;. The development of tools
+be submitted into different &lt;code&gt;Archives&lt;/code&gt; and reused in multiple and different &lt;code&gt;DBs&lt;/code&gt;. The development of tools
 facilitating &lt;strong&gt;data sharing&lt;/strong&gt; and able to handle this complexity is a great challenge in itself.&lt;/p&gt;
 
 &lt;p&gt;In this context, we introduce here the &lt;a href=&#34;http://www.omicsdi.org&#34;&gt;Omics Discovery Index&lt;/a&gt;, an open-source platform facilitating

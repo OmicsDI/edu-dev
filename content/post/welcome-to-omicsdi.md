@@ -48,13 +48,13 @@ components to guide the submission process:
 In recent years the number of databases and archives has growth in all omics fields [1]. For example,
 in Proteomics the results of a Mass spectrometry experiment can be submitted to four different databases members of
 [ProteomeXchange](www.proteomexchange.org): PeptideAtlas/PASSEL, PRIDE, MassIVE, jPOST. In addition, each omics field
-has developed and growth independently of the other fields including their metadata specifications, file formats, and submission
+has developed and grown independently of the other fields including their metadata specifications, file formats, and submission
 guidelines. For this reason, most of the `Data Archives` are field specific (e.g. Metabolomics - Metaboligths, Metabolomics Workbench).
 
 ## Omics Data Dissemination
 
 After the data is submitted to a formal <a href='{{< ref "#omics-data-submission" >}}'>Archive</a>, Knowledge Base Databases
-(`BDs`) **reuse** part of the public data to respond specific questions (e.g. Gene Expression Profiles - ExpressionAtlas). The
+(`BDs`) **reuse** part of the public data to respond to specific questions (e.g. Gene Expression Profiles - ExpressionAtlas). The
 number of these `DBs` has growth in recent years. For example, Table 1 shows the list of Protein Expression Databases [1] that include
 peptide sequences, post-translational modifications, expression profiles.
 
@@ -80,7 +80,7 @@ Peptides Sequences, Post-Translational Modifications).
 {{< figure src="/media/vision.png" width="400" height="400" class="left">}}
 
 All these databases/repositories have created a complex and distributed scenario where the data can
-be submitted into different `Archives` and reuse in multiple and different `DBs`. The development of tools
+be submitted into different `Archives` and reused in multiple and different `DBs`. The development of tools
 facilitating **data sharing** and able to handle this complexity is a great challenge in itself.
 
 In this context, we introduce here the [Omics Discovery Index](http://www.omicsdi.org), an open-source platform facilitating

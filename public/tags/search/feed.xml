@@ -17,7 +17,7 @@
       <guid>https://omicsdi.github.io/post/filter-results/</guid>
       <description>
 
-&lt;p&gt;The search results can be filtered or refine using different &lt;code&gt;filters&lt;/code&gt; or &lt;code&gt;terms&lt;/code&gt; (Figure 1).
+&lt;p&gt;The search results can be filtered or refined using different &lt;code&gt;filters&lt;/code&gt; or &lt;code&gt;terms&lt;/code&gt; (Figure 1).
 The OmicsDI web application supports at the moment nine different refinements: &lt;code&gt;Omics Type&lt;/code&gt;, &lt;code&gt;repository/database&lt;/code&gt;,
 &lt;code&gt;Organisms&lt;/code&gt;, &lt;code&gt;Tissue, diseases&lt;/code&gt;,  &lt;code&gt;Modifications (proteomics)&lt;/code&gt;, &lt;code&gt;Instruments and platforms&lt;/code&gt;, &lt;code&gt;Publication data&lt;/code&gt;,
 &lt;code&gt;Technology type&lt;/code&gt;.&lt;/p&gt;
@@ -55,10 +55,10 @@ The OmicsDI web application supports at the moment nine different refinements: &
 
 
 &lt;p&gt;Each &lt;code&gt;Filter Box&lt;/code&gt; shows the number of datasets within each category (e.g tissue type). The &lt;code&gt;user&lt;/code&gt; can search in the  &lt;strong&gt;textfield&lt;/strong&gt;
-for a certain category and the system will filter the categories by the keywords the user specify. For example (&lt;strong&gt;Figure 2&lt;/strong&gt;), the user is interested
-in &lt;code&gt;brain&lt;/code&gt; tissue, then it can see all the tissues containing the keyword &lt;code&gt;brain&lt;/code&gt;. Finally by clicking the desired.&lt;/p&gt;
+for a certain category and the system will filter the categories by the keywords the user specifies. For example (&lt;strong&gt;Figure 2&lt;/strong&gt;), if the user is interested
+in &lt;code&gt;brain&lt;/code&gt; tissue, then s/he can see all the tissues containing the keyword &lt;code&gt;brain&lt;/code&gt;.&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span&gt;&lt;/span&gt;Notice that most of the filters are Free-Text based meaning that their values rely on the
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span&gt;&lt;/span&gt;Notice that most of the filters are free text based meaning that their values rely on the
 annotations provided by the specific databases.
 
 OmicsDI Team is always improving the automatic annotation system to move more attributes/properties of the dataset
@@ -253,8 +253,8 @@ A few examples of queries that can be performed using EBI Search are listed belo
 
 &lt;h2 id=&#34;searching-using-biological-evidence:b52c04c2105c538bbdc8450470d85aba&#34;&gt;Searching using Biological Evidence&lt;/h2&gt;
 
-&lt;p&gt;The &lt;code&gt;OmicsDI Search Box&lt;/code&gt; allows the end-users to search data using biological evidence such as the list of the proteins identified in the proteomics experiment or the metabolite
-reported in the Metabolomics experiment. For example (Figure 3), if the user searches for &lt;code&gt;3-methyl-2-oxobutanoic&lt;/code&gt; in the resource it will found one dataset in Metaboligths and five in Metabolome workbench
+&lt;p&gt;The &lt;code&gt;OmicsDI Search Box&lt;/code&gt; allows the end-users to search data using biological evidence such as the list of the proteins identified in the proteomics experiment or the metabolites
+reported in the Metabolomics experiment. For example (Figure 3), if the user searches for &lt;code&gt;3-methyl-2-oxobutanoic&lt;/code&gt; in the resource it will find one dataset in Metaboligths and five in Metabolome workbench
 that identified the current molecule.&lt;/p&gt;
 
 &lt;p&gt;

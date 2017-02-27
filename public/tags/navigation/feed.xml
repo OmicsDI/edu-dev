@@ -10,13 +10,13 @@
     <atom:link href="https://omicsdi.github.io/tags/navigation/feed/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Navigation Omics from home page</title>
+      <title>Navigating Omics from the home page</title>
       <link>https://omicsdi.github.io/post/navigation-from-home/</link>
       <pubDate>Mon, 20 Feb 2017 01:17:55 +0000</pubDate>
       
       <guid>https://omicsdi.github.io/post/navigation-from-home/</guid>
       <description>&lt;p&gt;The &lt;a href=&#34;www.omicsdi.org&#34;&gt;OmicsDI Home Page&lt;/a&gt; provides different blocks for navigating through the datasets, some of them
-are: &lt;code&gt;2D WordCloud&lt;/code&gt;; the species/organism/diseases &lt;code&gt;Bubble Chart&lt;/code&gt;, repo/omics &lt;code&gt;Bar Chart&lt;/code&gt;, &lt;code&gt;Latest Datasets List&lt;/code&gt;,
+are: &lt;code&gt;2D WordCloud&lt;/code&gt;; the species/organism/diseases &lt;code&gt;Bubble Chart&lt;/code&gt;, repository/omics &lt;code&gt;Bar Chart&lt;/code&gt;, &lt;code&gt;Latest Datasets List&lt;/code&gt;,
 &lt;code&gt;Most Accessed Datasets&lt;/code&gt; List, &lt;code&gt;Datasets per year&lt;/code&gt; List. All the charts allow the user to search the data using
 the specific attribute. These boxes also act as a statistic component of the resource: for example, the pie chart shows how many datasets
 for each repository and omics the resource contains.&lt;/p&gt;
@@ -31,19 +31,19 @@ for each repository and omics the resource contains.&lt;/p&gt;
 
 
 &lt;p&gt;A &lt;code&gt;TagCloud&lt;/code&gt; or &lt;code&gt;WordCloud&lt;/code&gt; is a visual representation of metadata, typically used to depict keyword metadata (tags)
-on datasets, or to visualize free form text. The &lt;code&gt;WordCloud&lt;/code&gt; is build using the more frequently words for every
+on datasets, or to visualize free form text. The &lt;code&gt;WordCloud&lt;/code&gt; is built using the more frequent words for every
 database/repository. The OmicsDI &lt;code&gt;WordCloud&lt;/code&gt; can be considered as a two-dimensional term representation where the user can
 select the database and the field they want to look for: description vs database. The user can click the highlighted word in
 the wordcloud to search for this term in the resource.&lt;/p&gt;
 
 &lt;p&gt;The &lt;code&gt;Bubble Chart&lt;/code&gt; block allows the users to navigate the data using three main categories: Tissues, Organisms,
-and Diseases. The user can click on the bubble and it will be redirected to the search using the clicked term.&lt;/p&gt;
+and Diseases. The user can click on the bubble and s/he will be redirected to the search using the clicked term.&lt;/p&gt;
 
 &lt;p&gt;The Repo/Omics &lt;code&gt;Bar Chart&lt;/code&gt; and the Omics vs Year bar chart allow the users navigate the data using the omics categories
 (&lt;strong&gt;metabolomics&lt;/strong&gt;, &lt;strong&gt;transcriptomics&lt;/strong&gt;, &lt;strong&gt;proteomics&lt;/strong&gt; and &lt;strong&gt;genomics&lt;/strong&gt;). The &lt;code&gt;user&lt;/code&gt; can click a bar or the pie and it will
 be redirected to the search using the clicked term.&lt;/p&gt;
 
-&lt;p&gt;The Latest Datasets and Most accessed datasets blocks provide a list of the datasets by the tow categories.&lt;/p&gt;
+&lt;p&gt;The Latest Datasets and Most accessed datasets blocks provide a list of the datasets by the two categories.&lt;/p&gt;
 </description>
     </item>
     

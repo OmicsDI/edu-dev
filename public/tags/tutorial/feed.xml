@@ -17,7 +17,7 @@
       <guid>https://omicsdi.github.io/post/filter-results/</guid>
       <description>
 
-&lt;p&gt;The search results can be filtered or refine using different &lt;code&gt;filters&lt;/code&gt; or &lt;code&gt;terms&lt;/code&gt; (Figure 1).
+&lt;p&gt;The search results can be filtered or refined using different &lt;code&gt;filters&lt;/code&gt; or &lt;code&gt;terms&lt;/code&gt; (Figure 1).
 The OmicsDI web application supports at the moment nine different refinements: &lt;code&gt;Omics Type&lt;/code&gt;, &lt;code&gt;repository/database&lt;/code&gt;,
 &lt;code&gt;Organisms&lt;/code&gt;, &lt;code&gt;Tissue, diseases&lt;/code&gt;,  &lt;code&gt;Modifications (proteomics)&lt;/code&gt;, &lt;code&gt;Instruments and platforms&lt;/code&gt;, &lt;code&gt;Publication data&lt;/code&gt;,
 &lt;code&gt;Technology type&lt;/code&gt;.&lt;/p&gt;
@@ -55,10 +55,10 @@ The OmicsDI web application supports at the moment nine different refinements: &
 
 
 &lt;p&gt;Each &lt;code&gt;Filter Box&lt;/code&gt; shows the number of datasets within each category (e.g tissue type). The &lt;code&gt;user&lt;/code&gt; can search in the  &lt;strong&gt;textfield&lt;/strong&gt;
-for a certain category and the system will filter the categories by the keywords the user specify. For example (&lt;strong&gt;Figure 2&lt;/strong&gt;), the user is interested
-in &lt;code&gt;brain&lt;/code&gt; tissue, then it can see all the tissues containing the keyword &lt;code&gt;brain&lt;/code&gt;. Finally by clicking the desired.&lt;/p&gt;
+for a certain category and the system will filter the categories by the keywords the user specifies. For example (&lt;strong&gt;Figure 2&lt;/strong&gt;), if the user is interested
+in &lt;code&gt;brain&lt;/code&gt; tissue, then s/he can see all the tissues containing the keyword &lt;code&gt;brain&lt;/code&gt;.&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span&gt;&lt;/span&gt;Notice that most of the filters are Free-Text based meaning that their values rely on the
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span&gt;&lt;/span&gt;Notice that most of the filters are free text based meaning that their values rely on the
 annotations provided by the specific databases.
 
 OmicsDI Team is always improving the automatic annotation system to move more attributes/properties of the dataset
@@ -253,8 +253,8 @@ A few examples of queries that can be performed using EBI Search are listed belo
 
 &lt;h2 id=&#34;searching-using-biological-evidence:b52c04c2105c538bbdc8450470d85aba&#34;&gt;Searching using Biological Evidence&lt;/h2&gt;
 
-&lt;p&gt;The &lt;code&gt;OmicsDI Search Box&lt;/code&gt; allows the end-users to search data using biological evidence such as the list of the proteins identified in the proteomics experiment or the metabolite
-reported in the Metabolomics experiment. For example (Figure 3), if the user searches for &lt;code&gt;3-methyl-2-oxobutanoic&lt;/code&gt; in the resource it will found one dataset in Metaboligths and five in Metabolome workbench
+&lt;p&gt;The &lt;code&gt;OmicsDI Search Box&lt;/code&gt; allows the end-users to search data using biological evidence such as the list of the proteins identified in the proteomics experiment or the metabolites
+reported in the Metabolomics experiment. For example (Figure 3), if the user searches for &lt;code&gt;3-methyl-2-oxobutanoic&lt;/code&gt; in the resource it will find one dataset in Metaboligths and five in Metabolome workbench
 that identified the current molecule.&lt;/p&gt;
 
 &lt;p&gt;
@@ -276,13 +276,13 @@ that identified the current molecule.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Navigation Omics from home page</title>
+      <title>Navigating Omics from the home page</title>
       <link>https://omicsdi.github.io/post/navigation-from-home/</link>
       <pubDate>Mon, 20 Feb 2017 01:17:55 +0000</pubDate>
       
       <guid>https://omicsdi.github.io/post/navigation-from-home/</guid>
       <description>&lt;p&gt;The &lt;a href=&#34;www.omicsdi.org&#34;&gt;OmicsDI Home Page&lt;/a&gt; provides different blocks for navigating through the datasets, some of them
-are: &lt;code&gt;2D WordCloud&lt;/code&gt;; the species/organism/diseases &lt;code&gt;Bubble Chart&lt;/code&gt;, repo/omics &lt;code&gt;Bar Chart&lt;/code&gt;, &lt;code&gt;Latest Datasets List&lt;/code&gt;,
+are: &lt;code&gt;2D WordCloud&lt;/code&gt;; the species/organism/diseases &lt;code&gt;Bubble Chart&lt;/code&gt;, repository/omics &lt;code&gt;Bar Chart&lt;/code&gt;, &lt;code&gt;Latest Datasets List&lt;/code&gt;,
 &lt;code&gt;Most Accessed Datasets&lt;/code&gt; List, &lt;code&gt;Datasets per year&lt;/code&gt; List. All the charts allow the user to search the data using
 the specific attribute. These boxes also act as a statistic component of the resource: for example, the pie chart shows how many datasets
 for each repository and omics the resource contains.&lt;/p&gt;
@@ -297,19 +297,19 @@ for each repository and omics the resource contains.&lt;/p&gt;
 
 
 &lt;p&gt;A &lt;code&gt;TagCloud&lt;/code&gt; or &lt;code&gt;WordCloud&lt;/code&gt; is a visual representation of metadata, typically used to depict keyword metadata (tags)
-on datasets, or to visualize free form text. The &lt;code&gt;WordCloud&lt;/code&gt; is build using the more frequently words for every
+on datasets, or to visualize free form text. The &lt;code&gt;WordCloud&lt;/code&gt; is built using the more frequent words for every
 database/repository. The OmicsDI &lt;code&gt;WordCloud&lt;/code&gt; can be considered as a two-dimensional term representation where the user can
 select the database and the field they want to look for: description vs database. The user can click the highlighted word in
 the wordcloud to search for this term in the resource.&lt;/p&gt;
 
 &lt;p&gt;The &lt;code&gt;Bubble Chart&lt;/code&gt; block allows the users to navigate the data using three main categories: Tissues, Organisms,
-and Diseases. The user can click on the bubble and it will be redirected to the search using the clicked term.&lt;/p&gt;
+and Diseases. The user can click on the bubble and s/he will be redirected to the search using the clicked term.&lt;/p&gt;
 
 &lt;p&gt;The Repo/Omics &lt;code&gt;Bar Chart&lt;/code&gt; and the Omics vs Year bar chart allow the users navigate the data using the omics categories
 (&lt;strong&gt;metabolomics&lt;/strong&gt;, &lt;strong&gt;transcriptomics&lt;/strong&gt;, &lt;strong&gt;proteomics&lt;/strong&gt; and &lt;strong&gt;genomics&lt;/strong&gt;). The &lt;code&gt;user&lt;/code&gt; can click a bar or the pie and it will
 be redirected to the search using the clicked term.&lt;/p&gt;
 
-&lt;p&gt;The Latest Datasets and Most accessed datasets blocks provide a list of the datasets by the tow categories.&lt;/p&gt;
+&lt;p&gt;The Latest Datasets and Most accessed datasets blocks provide a list of the datasets by the two categories.&lt;/p&gt;
 </description>
     </item>
     

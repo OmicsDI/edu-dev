@@ -6,7 +6,7 @@ topics      = [ "Tutorials" ]
 categories  = [ "Tutorials" ]
 +++
 
-The search results can be filtered or refine using different ``filters`` or ``terms`` (Figure 1).
+The search results can be filtered or refined using different ``filters`` or ``terms`` (Figure 1).
 The OmicsDI web application supports at the moment nine different refinements: ``Omics Type``, ``repository/database``,
 ``Organisms``, ``Tissue, diseases``,  ``Modifications (proteomics)``, ``Instruments and platforms``, ``Publication data``,
 ``Technology type``.
@@ -20,12 +20,11 @@ The OmicsDI web application supports at the moment nine different refinements: `
 {{< figure src="/media/filter-box-typing.png" title="Figure 2: Tissue Filter Box" class="left" id="figure-shadow" width="300">}}
 
 Each ``Filter Box`` shows the number of datasets within each category (e.g tissue type). The ``user`` can search in the  **textfield**
-for a certain category and the system will filter the categories by the keywords the user specify. For example (**Figure 2**), the user is interested
-in ``brain`` tissue, then it can see all the tissues containing the keyword ``brain``. Finally by clicking the desired.
-
+for a certain category and the system will filter the categories by the keywords the user specifies. For example (**Figure 2**), if the user is interested
+in ``brain`` tissue, then s/he can see all the tissues containing the keyword ``brain``.
 
 {{< highlight bash>}}
-Notice that most of the filters are Free-Text based meaning that their values rely on the
+Notice that most of the filters are free text based meaning that their values rely on the
 annotations provided by the specific databases.
 
 OmicsDI Team is always improving the automatic annotation system to move more attributes/properties of the dataset

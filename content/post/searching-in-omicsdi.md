@@ -77,8 +77,8 @@ A few examples of queries that can be performed using EBI Search are listed belo
 
 ## Searching using Biological Evidence
 
-The ``OmicsDI Search Box`` allows the end-users to search data using biological evidence such as the list of the proteins identified in the proteomics experiment or the metabolite
-reported in the Metabolomics experiment. For example (Figure 3), if the user searches for ``3-methyl-2-oxobutanoic`` in the resource it will found one dataset in Metaboligths and five in Metabolome workbench
+The ``OmicsDI Search Box`` allows the end-users to search data using biological evidence such as the list of the proteins identified in the proteomics experiment or the metabolites
+reported in the Metabolomics experiment. For example (Figure 3), if the user searches for ``3-methyl-2-oxobutanoic`` in the resource it will find one dataset in Metaboligths and five in Metabolome workbench
 that identified the current molecule.
 
 
