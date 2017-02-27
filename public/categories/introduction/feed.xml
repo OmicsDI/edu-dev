@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog Posts on OmicsDI Blog</title>
-    <link>https://omicsdi.github.io/categories/blog-posts/</link>
-    <description>Recent content in Blog Posts on OmicsDI Blog</description>
+    <title>Introduction on OmicsDI Blog</title>
+    <link>https://omicsdi.github.io/categories/introduction/feed/index.xml</link>
+    <description>Recent content in Introduction on OmicsDI Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Feb 2017 23:48:18 +0000</lastBuildDate>
-    <atom:link href="https://omicsdi.github.io/categories/blog-posts/feed/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://omicsdi.github.io/categories/introduction/feed/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Welcome to OmicsDI Edu page</title>
@@ -27,7 +26,7 @@ indexing system, which is able to integrate different biological entities includ
 genes, proteins and metabolites with the relevant life science literature. OmicsDI is updated daily, as new datasets get
 publicly available in the contributing repositories.&lt;/p&gt;
 
-&lt;h2 id=&#34;omics-data-submission:acb49c8cd62da07b088168eb054ae884&#34;&gt;Omics Data Submission&lt;/h2&gt;
+&lt;h2 id=&#34;omics-data-submission&#34;&gt;Omics Data Submission&lt;/h2&gt;
 
 &lt;p&gt;The increasing role of huge datasets in scientific research has important implications for the way the research
 is conducted, for the way it should be organized and funded, and for the training of new researchers.
@@ -69,9 +68,9 @@ in Proteomics the results of a Mass spectrometry experiment can be submitted to 
 has developed and grown independently of the other fields including their metadata specifications, file formats, and submission
 guidelines. For this reason, most of the &lt;code&gt;Data Archives&lt;/code&gt; are field specific (e.g. Metabolomics - Metaboligths, Metabolomics Workbench).&lt;/p&gt;
 
-&lt;h2 id=&#34;omics-data-dissemination:acb49c8cd62da07b088168eb054ae884&#34;&gt;Omics Data Dissemination&lt;/h2&gt;
+&lt;h2 id=&#34;omics-data-dissemination&#34;&gt;Omics Data Dissemination&lt;/h2&gt;
 
-&lt;p&gt;After the data is submitted to a formal &lt;a href=&#39;#omics-data-submission:acb49c8cd62da07b088168eb054ae884&#39;&gt;Archive&lt;/a&gt;, Knowledge Base Databases
+&lt;p&gt;After the data is submitted to a formal &lt;a href=&#39;#omics-data-submission&#39;&gt;Archive&lt;/a&gt;, Knowledge Base Databases
 (&lt;code&gt;BDs&lt;/code&gt;) &lt;strong&gt;reuse&lt;/strong&gt; part of the public data to respond to specific questions (e.g. Gene Expression Profiles - ExpressionAtlas). The
 number of these &lt;code&gt;DBs&lt;/code&gt; has growth in recent years. For example, Table 1 shows the list of Protein Expression Databases [1] that include
 peptide sequences, post-translational modifications, expression profiles.&lt;/p&gt;
@@ -145,7 +144,7 @@ Peptides Sequences, Post-Translational Modifications).&lt;/p&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h2 id=&#34;omicsdi-vision:acb49c8cd62da07b088168eb054ae884&#34;&gt;OmicsDI Vision&lt;/h2&gt;
+&lt;h2 id=&#34;omicsdi-vision&#34;&gt;OmicsDI Vision&lt;/h2&gt;
 
 
 &lt;figure class=&#34;left&#34;&gt;
@@ -202,7 +201,7 @@ the standardization of the metadata across multiple resources and omics type. Ea
 the same topic (e.g. proteomics) and has previously agree in a common metadata including Ontology Terms, Study Design, etc.
 At the same time, OmicsDI has collaborated with other individual archives and databases such as ArrayExpress or EGA.&lt;/p&gt;
 
-&lt;h2 id=&#34;proteomexchange:5932cdc855493deada113a5ffc623113&#34;&gt;ProteomeXchange&lt;/h2&gt;
+&lt;h2 id=&#34;proteomexchange&#34;&gt;ProteomeXchange&lt;/h2&gt;
 
 
 &lt;figure &gt;
@@ -221,7 +220,7 @@ distributed database infrastructure; the potentially very large raw data compone
 the original submission database, while the searchable metadata is centrally collected and indexed.
 All ProteomeXchange data is fully open after the release of the associated publication.&lt;/p&gt;
 
-&lt;h2 id=&#34;metabolomexchange:5932cdc855493deada113a5ffc623113&#34;&gt;MetabolomeXchange&lt;/h2&gt;
+&lt;h2 id=&#34;metabolomexchange&#34;&gt;MetabolomeXchange&lt;/h2&gt;
 
 
 &lt;figure &gt;
@@ -239,7 +238,7 @@ Metabolomics Repository Bordeaux(FR), Golm Metabolome Database and the Metabolom
 The &lt;a href=&#34;metabolomicsworkbench.org/&#34;&gt;Metabolomics Workbench&lt;/a&gt; is an NIH-funded collaboration of 6 Regional
 Comprehensive Metabolomics Resource Cores.&lt;/p&gt;
 
-&lt;h2 id=&#34;the-european-genome-phenome-archive:5932cdc855493deada113a5ffc623113&#34;&gt;The European Genome-Phenome Archive&lt;/h2&gt;
+&lt;h2 id=&#34;the-european-genome-phenome-archive&#34;&gt;The European Genome-Phenome Archive&lt;/h2&gt;
 
 
 &lt;figure &gt;

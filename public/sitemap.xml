@@ -2,12 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://omicsdi.github.io/</loc>
-    <lastmod>2017-02-20T14:04:54+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://omicsdi.github.io/post/filter-results/</loc>
     <lastmod>2017-02-20T14:04:54+00:00</lastmod>
   </url>
@@ -30,6 +24,142 @@
   <url>
     <loc>https://omicsdi.github.io/post/partners/</loc>
     <lastmod>2017-02-17T23:09:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://omicsdi.github.io/tags/auto-complete/</loc>
+    <lastmod>2017-02-20T14:04:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://omicsdi.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://omicsdi.github.io/tags/data-dissemination/</loc>
+    <lastmod>2017-02-17T23:48:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://omicsdi.github.io/tags/data-sharing/</loc>
+    <lastmod>2017-02-17T23:48:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://omicsdi.github.io/tags/data-submission/</loc>
+    <lastmod>2017-02-17T23:48:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://omicsdi.github.io/tags/filtering/</loc>
+    <lastmod>2017-02-20T14:04:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://omicsdi.github.io/tags/genomics/</loc>
+    <lastmod>2017-02-17T23:48:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://omicsdi.github.io/tags/introduction/</loc>
+    <lastmod>2017-02-17T23:48:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://omicsdi.github.io/categories/introduction/</loc>
+    <lastmod>2017-02-17T23:48:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://omicsdi.github.io/tags/keywords/</loc>
+    <lastmod>2017-02-20T14:04:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://omicsdi.github.io/tags/navigation/</loc>
+    <lastmod>2017-02-20T01:17:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://omicsdi.github.io/</loc>
+    <lastmod>2017-02-20T14:04:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://omicsdi.github.io/tags/omicsdi/</loc>
+    <lastmod>2017-02-17T23:48:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://omicsdi.github.io/tags/partners/</loc>
+    <lastmod>2017-02-17T23:09:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://omicsdi.github.io/post/</loc>
+    <lastmod>2017-02-20T14:04:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://omicsdi.github.io/tags/proteomics/</loc>
+    <lastmod>2017-02-17T23:48:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://omicsdi.github.io/tags/refine-results/</loc>
+    <lastmod>2017-02-20T14:04:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://omicsdi.github.io/tags/search/</loc>
+    <lastmod>2017-02-20T14:04:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://omicsdi.github.io/tags/searching/</loc>
+    <lastmod>2017-02-20T10:02:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://omicsdi.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://omicsdi.github.io/tags/tutorial/</loc>
+    <lastmod>2017-02-20T14:04:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://omicsdi.github.io/categories/tutorials/</loc>
+    <lastmod>2017-02-20T14:04:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://omicsdi.github.io/tags/web-components/</loc>
+    <lastmod>2017-02-20T10:02:07+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

@@ -3,7 +3,7 @@ date = "2017-02-17T23:09:18Z"
 title = "OmicsDI major partners"
 tags        = [ "Introduction", "OmicsDI", "Partners"]
 topics      = [ "Blog Posts" ]
-categories  = [ "Blog Posts" ]
+categories  = [ "Introduction" ]
 toc = true
 +++
 

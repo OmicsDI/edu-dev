@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
   
   <meta name="description" content="The OmicsDI Home Page provides different blocks for navigating through the datasets, some of them are: 2D WordCloud; the species/organism/diseases Bubble Chart, repository/omics Bar Chart, Latest Datasets List, Most Accessed Datasets List, Datasets per year List. All the charts allow the user to search the data using the specific attribute. These boxes also act as a statistic component of the resource: for example, the pie chart shows how many datasets for each repository and omics the resource contains.">
-  <meta name="author" content="OmicsDI Team">
+  
   <meta itemprop="name" content="Navigating Omics from the home page - OmicsDI Blog">
   <meta itemprop="description" content="The OmicsDI Home Page provides different blocks for navigating through the datasets, some of them are: 2D WordCloud; the species/organism/diseases Bubble Chart, repository/omics Bar Chart, Latest Datasets List, Most Accessed Datasets List, Datasets per year List. All the charts allow the user to search the data using the specific attribute. These boxes also act as a statistic component of the resource: for example, the pie chart shows how many datasets for each repository and omics the resource contains.">
   <meta itemprop="image" content="https://omicsdi.github.io/img/author.jpg">
@@ -23,10 +23,12 @@
   <script src="https://omicsdi.github.io/highlight/highlight.pack.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
   <link rel="stylesheet" href="https://omicsdi.github.io/font/hack/css/hack.min.css">
-  <link rel="stylesheet" href="https://omicsdi.github.io/css/style.css">
   <link rel="stylesheet" href="https://omicsdi.github.io/css/horsey.css">
   <link rel="stylesheet" href="https://omicsdi.github.io/css/font-awesome.min.css">
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://omicsdi.github.io/css/style.css">
 </head>
 
 <body>
@@ -79,7 +81,7 @@
   </h1>
   <p class="article-author">By
     
-      <a href="http://www.omicsdi.org" title="OmicsDI Team">OmicsDI Team</a>
+      <a href="http://www.omicsdi.org" title=""></a>
     
   </p>
   <p class="article-time">
@@ -159,45 +161,70 @@ be redirected to the search using the clicked term.</p>
   
 
 
-<section class="comment">
-<div id="disqus_thread"></div>
-</section>
-<script>
-
-
-var disqus_config = function () {
-this.page.url = "https://omicsdi.github.io/post/navigation-from-home/";
-this.page.identifier = "https://omicsdi.github.io/post/navigation-from-home/";
-};
-(function() { 
-var d = document, s = d.createElement('script');
-
-s.src = '//omicsdi.disqus.com/embed.js';
-
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-
 
 </div>
 
     <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
 <div id="asidepart">
-<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+
 <aside class="clearfix">
   
 
-<div class="categorieslist">
+
+  
+  
+    
+    
+    
+    
+    
+  
+
+
+
+
+
+<div>
   <p class="asidetitle">Categories</p>
-  <ul>
-    
-    <li><a href="https://omicsdi.github.io/categories/blog-posts" title="blog-posts">blog-posts<sup>2</sup></a></li>
-    
-    <li><a href="https://omicsdi.github.io/categories/tutorials" title="tutorials">tutorials<sup>3</sup></a></li>
-    
-  </ul>
+  <div class="navbar-collapse collapse sidebar-navbar-collapse" style="padding-left: 0px;">
+    <ul class="nav navbar-nav" id="sidenav01">
+      
+      <li>
+        <a href="#" data-toggle="collapse" data-target="#introduction" data-parent="#sidenav01" class="collapsed"
+        style="padding-bottom: 0px; padding-left: 0px;">
+          <i class="fa fa-minus" aria-hidden="true"></i> INTRODUCTION
+        </a>
+        <div class="collapse" id="introduction" style="height: 0px;">
+          <ul class="nav nav-list">
+            
+            <li hugo-nav="/post/welcome-to-omicsdi/"><a href="https://omicsdi.github.io/post/welcome-to-omicsdi/"> Welcome to OmicsDI Edu page </a> </li>
+            
+            <li hugo-nav="/post/partners/"><a href="https://omicsdi.github.io/post/partners/"> OmicsDI major partners </a> </li>
+            
+          </ul>
+        </div>
+      </li>
+      
+      <li>
+        <a href="#" data-toggle="collapse" data-target="#tutorials" data-parent="#sidenav01" class="collapsed"
+        style="padding-bottom: 0px; padding-left: 0px;">
+          <i class="fa fa-minus" aria-hidden="true"></i> TUTORIALS
+        </a>
+        <div class="collapse" id="tutorials" style="height: 0px;">
+          <ul class="nav nav-list">
+            
+            <li hugo-nav="/post/filter-results/"><a href="https://omicsdi.github.io/post/filter-results/"> Filtering search results </a> </li>
+            
+            <li hugo-nav="/post/searching-in-omicsdi/"><a href="https://omicsdi.github.io/post/searching-in-omicsdi/"> Searching in OmicsDI </a> </li>
+            
+            <li hugo-nav="/post/navigation-from-home/"><a href="https://omicsdi.github.io/post/navigation-from-home/"> Navigating Omics from the home page </a> </li>
+            
+          </ul>
+        </div>
+      </li>
+      
+    </ul>
+  </div>
 </div>
 
 
@@ -341,7 +368,7 @@ s.setAttribute('data-timestamp', +new Date());
   </div>
   <p class="copyright">Powered by <a href="http://gohugo.io" target="_blank" title="hugo">hugo</a> and Theme by <a href="https://github.com/coderzh/hugo-pacman-theme" target="_blank" title="hugo-pacman-theme">hugo-pacman-theme</a> © 2017
     
-    <a href="https://omicsdi.github.io/" target="_blank" title="OmicsDI Team">OmicsDI Team</a>
+    <a href="https://omicsdi.github.io/" title="OmicsDI Blog">OmicsDI Blog</a>
     
   </p>
 </div>
@@ -462,16 +489,6 @@ $(document).ready(function(){
 </script>
 
 
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-70417662-3', 'auto');
-  ga('send', 'pageview');
-  $('#messagesbsb').remove();
-</script>
 
 
 

@@ -6,7 +6,7 @@ description = "Introduction to OmicsDI"
 tags        = [ "Introduction", "OmicsDI", "Proteomics", "Genomics", "Data Submission", "Data Dissemination",
                 "Data Sharing"]
 topics      = [ "Blog Posts" ]
-categories  = [ "Blog Posts"]
+categories  = [ "Introduction"]
 toc = true
 
 +++

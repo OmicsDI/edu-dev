@@ -2,11 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Partners on OmicsDI Blog</title>
-    <link>https://omicsdi.github.io/tags/partners/</link>
+    <link>https://omicsdi.github.io/tags/partners/feed/index.xml</link>
     <description>Recent content in Partners on OmicsDI Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Feb 2017 23:09:18 +0000</lastBuildDate>
     <atom:link href="https://omicsdi.github.io/tags/partners/feed/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -22,7 +21,7 @@ the standardization of the metadata across multiple resources and omics type. Ea
 the same topic (e.g. proteomics) and has previously agree in a common metadata including Ontology Terms, Study Design, etc.
 At the same time, OmicsDI has collaborated with other individual archives and databases such as ArrayExpress or EGA.&lt;/p&gt;
 
-&lt;h2 id=&#34;proteomexchange:5932cdc855493deada113a5ffc623113&#34;&gt;ProteomeXchange&lt;/h2&gt;
+&lt;h2 id=&#34;proteomexchange&#34;&gt;ProteomeXchange&lt;/h2&gt;
 
 
 &lt;figure &gt;
@@ -41,7 +40,7 @@ distributed database infrastructure; the potentially very large raw data compone
 the original submission database, while the searchable metadata is centrally collected and indexed.
 All ProteomeXchange data is fully open after the release of the associated publication.&lt;/p&gt;
 
-&lt;h2 id=&#34;metabolomexchange:5932cdc855493deada113a5ffc623113&#34;&gt;MetabolomeXchange&lt;/h2&gt;
+&lt;h2 id=&#34;metabolomexchange&#34;&gt;MetabolomeXchange&lt;/h2&gt;
 
 
 &lt;figure &gt;
@@ -59,7 +58,7 @@ Metabolomics Repository Bordeaux(FR), Golm Metabolome Database and the Metabolom
 The &lt;a href=&#34;metabolomicsworkbench.org/&#34;&gt;Metabolomics Workbench&lt;/a&gt; is an NIH-funded collaboration of 6 Regional
 Comprehensive Metabolomics Resource Cores.&lt;/p&gt;
 
-&lt;h2 id=&#34;the-european-genome-phenome-archive:5932cdc855493deada113a5ffc623113&#34;&gt;The European Genome-Phenome Archive&lt;/h2&gt;
+&lt;h2 id=&#34;the-european-genome-phenome-archive&#34;&gt;The European Genome-Phenome Archive&lt;/h2&gt;
 
 
 &lt;figure &gt;

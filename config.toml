@@ -47,22 +47,24 @@ RSSUri = "feed.xml"
     Rss = "RSS"
     TableOfContents = "Table of Contents"
 
-[Menu]
-  [[Menu.Main]]
+[[menu.main]]
     Name = "Home"
+    identifier= "home"
     URL = "/"
     pre = "<i class='fa fa-th-large'></i>"
     Weight = 1
 
-  [[Menu.Main]]
+[[menu.main]]
     Name = "OmicsDI"
     URL = "http://www.omicsdi.org"
     pre = "<i class='fa fa-home'></i>"
+    identifier = "omicsdi"
     Weight = 2
 
-  [[Menu.Main]]
+[[menu.main]]
     Name = "GitHub"
     URL = "http://github.com/OmicsDI"
+    identifier = "github"
     pre = "<i class='fa fa-github'></i>"
     Weight = 3
 

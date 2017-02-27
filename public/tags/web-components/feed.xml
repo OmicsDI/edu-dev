@@ -2,11 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web Components on OmicsDI Blog</title>
-    <link>https://omicsdi.github.io/tags/web-components/</link>
+    <link>https://omicsdi.github.io/tags/web-components/feed/index.xml</link>
     <description>Recent content in Web Components on OmicsDI Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Feb 2017 10:02:07 +0000</lastBuildDate>
     <atom:link href="https://omicsdi.github.io/tags/web-components/feed/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -20,7 +19,7 @@
 &lt;p&gt;The &lt;strong&gt;main goal&lt;/strong&gt; of the &lt;a href=&#34;www.omicsdi.org&#34;&gt;Omics Discovery Index&lt;/a&gt; is to provide a platform for &lt;code&gt;searching&lt;/code&gt; and &lt;code&gt;linking&lt;/code&gt; omics public data.
 OmicsDI has implemented a &lt;strong&gt;unique&lt;/strong&gt; and &lt;strong&gt;novel&lt;/strong&gt; &lt;code&gt;Search Engine&lt;/code&gt; for omics datasets including public and protected data.&lt;/p&gt;
 
-&lt;h2 id=&#34;the-omicsdi-search-box:b52c04c2105c538bbdc8450470d85aba&#34;&gt;The OmicsDI Search Box&lt;/h2&gt;
+&lt;h2 id=&#34;the-omicsdi-search-box&#34;&gt;The OmicsDI Search Box&lt;/h2&gt;
 
 
 &lt;figure &gt;
@@ -60,7 +59,7 @@ Figure 2 shows all sentences/phrases in OmicsDI containing the words &lt;em&gt;b
 &lt;/figure&gt;
 
 
-&lt;h2 id=&#34;query-syntax:b52c04c2105c538bbdc8450470d85aba&#34;&gt;Query Syntax&lt;/h2&gt;
+&lt;h2 id=&#34;query-syntax&#34;&gt;Query Syntax&lt;/h2&gt;
 
 &lt;p&gt;When the user types any text in &lt;code&gt;OmicsDI Search Box&lt;/code&gt;, the input is translated into an &lt;a href=&#34;http://lucene.apache.org/&#34;&gt;Apache Lucene query&lt;/a&gt; that is then executed
 to get the search results. The actual query executed is generated following the typical Apache Lucene query syntax in order to
@@ -142,7 +141,7 @@ of results is based on their relevance, i.e. the proximity of the terms in the e
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h4 id=&#34;escaping-special-characters:b52c04c2105c538bbdc8450470d85aba&#34;&gt;Escaping special characters&lt;/h4&gt;
+&lt;h4 id=&#34;escaping-special-characters&#34;&gt;Escaping special characters&lt;/h4&gt;
 
 &lt;p&gt;The following characters within queries require to be escaped (using a &amp;lsquo; \ &amp;lsquo; before the character to escape) in order to be correctly interpreted:&lt;/p&gt;
 
@@ -153,7 +152,7 @@ of results is based on their relevance, i.e. the proximity of the terms in the e
 &lt;p&gt;Since Apache Lucene supports regular expression searches (matching a pattern between forwarding slashes) the forward slash &amp;lsquo; / &amp;rsquo; has become a special character to be escaped. For example to search for
 &lt;code&gt;cancer/testis&lt;/code&gt; use the query &lt;code&gt;cancer\/testis&lt;/code&gt;. If special characters are not escaped the actual query performed may be different from what expected.&lt;/p&gt;
 
-&lt;h4 id=&#34;query-examples:b52c04c2105c538bbdc8450470d85aba&#34;&gt;Query examples&lt;/h4&gt;
+&lt;h4 id=&#34;query-examples&#34;&gt;Query examples&lt;/h4&gt;
 
 &lt;p&gt;Following the aforementioned query syntax, users can easily search and filter results according to data content and characteristics.
 A few examples of queries that can be performed using EBI Search are listed below.&lt;/p&gt;
@@ -163,13 +162,13 @@ A few examples of queries that can be performed using EBI Search are listed belo
 &lt;li&gt;Search Datasets that identified &lt;a href=&#34;http://www.omicsdi.org/search?q=(UNIPROT:%20(%22P07900%22))&#34;&gt;P07900&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;searching-using-biological-evidence:b52c04c2105c538bbdc8450470d85aba&#34;&gt;Searching using Biological Evidence&lt;/h2&gt;
+&lt;h2 id=&#34;searching-using-biological-evidence&#34;&gt;Searching using Biological Evidence&lt;/h2&gt;
 
 &lt;p&gt;The &lt;code&gt;OmicsDI Search Box&lt;/code&gt; allows the end-users to search data using biological evidence such as the list of the proteins identified in the proteomics experiment or the metabolites
 reported in the Metabolomics experiment. For example (Figure 3), if the user searches for &lt;code&gt;3-methyl-2-oxobutanoic&lt;/code&gt; in the resource it will find one dataset in Metaboligths and five in Metabolome workbench
 that identified the current molecule.&lt;/p&gt;
 
-&lt;p&gt;
+
 &lt;figure &gt;
     
         &lt;img src=&#34;https://omicsdi.github.io/media/search-biological-evidences.png&#34; /&gt;
@@ -181,7 +180,7 @@ that identified the current molecule.&lt;/p&gt;
     &lt;/figcaption&gt;
     
 &lt;/figure&gt;
-&lt;/p&gt;
+
 
 &lt;p&gt;The final search results are shown in the &lt;a href=&#34;http://www.omicsdi.org/search?q=*:*&#34;&gt;browser page&lt;/a&gt; including &lt;code&gt;Refine Filters&lt;/code&gt;. &lt;a href=&#39;https://omicsdi.github.io/post/filter-results/&#39;&gt;Read More Here&lt;/a&gt;.&lt;/p&gt;
 </description>
