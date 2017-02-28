@@ -34,7 +34,8 @@ Responses containing multiple entries have the following fields:
 
 Example
 
-~~~
+{{< highlight json>}}
+
     http://www.omicsdi.org/ws/dataset/search?query=human
     {
     "count": 733,
@@ -77,11 +78,13 @@ Example
     //other facets
     ]
     }
-~~~
+{{< / highlight >}}
+
 
 Responses containing just a single dataset have some extra navigation fields, and without the facets
 
-~~~
+{{< highlight json>}}
+
     http://www.omicsdi.org/ws/dataset/get?acc=PXD001848&database=PRIDE
     {
     "id": "PXD001848",
@@ -102,7 +105,7 @@ Responses containing just a single dataset have some extra navigation fields, an
     "data_protocol": "Peak lists were extracted from the raw LC-MS/MS data files and the data were searched against the 20265 human proteins in the 2014-04 release of the UniProt Knowledgebase (downloaded at ftp://ftp.uniprot.org/pub/databases/uniprot/current_releases/release-2014_04/knowledgebase/) using Maxquant 1.3.0.5.41 The following modifications were used: methyl methanethiosulfonate at cysteine as a fixed modification, SILAC labeling of lysine (13C614N2) and arginine (13C6), and variable (0-1) oxidation of methionine and deamidation of Asparagine and Glutamine (N and Q), and acetylation of the protein N-terminus. The enzyme was set as Trypsin, and up to 2 missed cleavages were permitted. The false discovery rate for peptide and protein identifications was set to1%, and rest of the parameters were set at the default settings. As part of the default settings, the mass tolerance for precursor ions was set to 20 ppm for the first search where initial mass recalibration was completed and a 6 ppm precursor mass tolerance was used for the main search. The mass tolerance for fragment ions was 0.5 Da. We also included match between runs and re-quantification of the searched peptides. The search results were exported toExcel for further data analysis as described below. Only the protein and peptide identifications with no-zeropositive ratios (H/L >0) were used in subsequent data analysis steps. The methionine-containing peptides wereselected, and those methionine-containing peptides consistently identified in the protein samples derived from sixor more denaturant-containing buffers were assayed. For the methionine-containing peptides, a single averaged H/Lratio was calculated for each peptide sequence and each charge state at each denaturant concentration. Similarly, for each analysis, a median H/L ratio was determined for each protein using the H/L ratios measured for all thenon-methionine-containing peptides identified in all the denaturant concentrations for a given protein. These medianH/L ratios were used to select hits with H/L>2 fold in the protein expression level analyses. For hit peptide andprotein selection in the thermodynamic analyses, all the H/L ratios generated for the non-methionine containingpeptides from a given protein were divided by the median H/L ratio for that protein in order to generate normalizedH/L ratios for each non-methionine containing peptide. These normalized H/L ratios were log2 transformed. Thenormalized and log2 transformed H/L ratios generated for the non-methionine-containing peptides in a given analysiswere used to determine the 5th and 95th percentiles values used in subsequent analysis of methionine-containingpeptides. The averaged H/L ratios calculated for each methionine-containing peptides were also normalized and log2transformed. The methionine-containing peptides and proteins with log2 transformed H/L ratios less than the 5thpercentile or greater than the 95th percentile values determined above were selected and then visually inspected todetermine which peptides had altered H/L ratios at 2 or more consecutive denaturant concentrations to generate aninitial list of protein hits.",
     "sample_protocol": "SILAC labeled MCF-7 and MDA-MB-231 cell lysates were prepared according to established SILAC protocols. Aliquots of each lysate were distributed into a series of denaturant-containing buffers, reacted with hydrogen peroxide under conditions that selectively oxidize exposed methionine residues, and quenched with the addition of excess methionine. The light and heavy samples generated at matching denaturant concentration were combined. Each combined protein sample was submitted to a bottom-up, solution-phase, shotgun proteomics analysis using LC-MS/MS. Ultimately, L/H ratios were obtained for the peptides detected at each denaturant concentration, and the denaturant dependence of the L/H ratioâ€™s was examined."
     }
-~~~
+{{< / highlight >}}
 
 ### Pagination
 
