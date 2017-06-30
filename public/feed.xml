@@ -285,12 +285,12 @@ of large amounts of data and to speed up the &lt;code&gt;API&lt;/code&gt;. The &
 
 &lt;ul&gt;
 &lt;li&gt;The User Profile: General information about the User (Name, email, affiliation, Account connections).&lt;/li&gt;
-&lt;li&gt;The Claimed Datasests: List of public datasests. &lt;a href=&#34;https://scholar.google.co.uk/intl/en/scholar/about.html&#34;&gt;Similar to Google Scholar for publications&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;My Datasests: List of public datasests. &lt;a href=&#34;https://scholar.google.co.uk/intl/en/scholar/about.html&#34;&gt;Similar to Google Scholar for publications&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;omicsdi-user-profile&#34;&gt;OmicsDI User Profile.&lt;/h2&gt;
 
-&lt;p&gt;The user can create an OmicsDI account by user five different providers: &lt;a href=&#34;https://orcid.org/&#34;&gt;ORCID&lt;/a&gt;, &lt;a href=&#34;https://www.elixir-europe.org/&#34;&gt;ELIXIR&lt;/a&gt;, &lt;a href=&#34;http://www.twitter.com&#34;&gt;Twitter&lt;/a&gt;, &lt;a href=&#34;http://www.github.com&#34;&gt;GitHub&lt;/a&gt; and &lt;a href=&#34;http://www.facebook.com&#34;&gt;Facebook&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The user can create an OmicsDI account using five different accounts: &lt;a href=&#34;https://orcid.org/&#34;&gt;ORCID&lt;/a&gt;, &lt;a href=&#34;https://www.elixir-europe.org/&#34;&gt;ELIXIR&lt;/a&gt;, &lt;a href=&#34;http://www.twitter.com&#34;&gt;Twitter&lt;/a&gt;, &lt;a href=&#34;http://www.github.com&#34;&gt;GitHub&lt;/a&gt; and &lt;a href=&#34;http://www.facebook.com&#34;&gt;Facebook&lt;/a&gt;.&lt;/p&gt;
 
 
 &lt;figure &gt;
@@ -305,6 +305,92 @@ of large amounts of data and to speed up the &lt;code&gt;API&lt;/code&gt;. The &
     
 &lt;/figure&gt;
 
+
+&lt;p&gt;When the user is created, an empty profile is generated (Figure 2). The Profile contains two main sections: &lt;strong&gt;Edit Profile&lt;/strong&gt; and &lt;strong&gt;Edit Datasets&lt;/strong&gt;.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://omicsdi.github.io/media/profile-empty-page.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Figure 2: Profile Page in OmicsDI&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;When a user log in to OmicsDI some general information is pull from the source account (e.g. ORCID). However this data is incomplete. Then, the first step is to &lt;strong&gt;Edit Profile&lt;/strong&gt; where the user can update the: &lt;code&gt;photo&lt;/code&gt;, &lt;code&gt;affiliation&lt;/code&gt;, &lt;code&gt;email&lt;/code&gt;, &lt;code&gt;short biography&lt;/code&gt;, &lt;code&gt;Make my profile public&lt;/code&gt;. The last option (Figure 3) enables the un-registered users to see your profile (datasets).&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://omicsdi.github.io/media/make-profile.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Figure 3: Make my profile public&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;After the Profile is updated, the user can start adding (&lt;code&gt;claiming&lt;/code&gt;) its datasets.&lt;/p&gt;
+
+&lt;h2 id=&#34;my-datasests&#34;&gt;My Datasests&lt;/h2&gt;
+
+&lt;p&gt;Users can use the OmicsDI &lt;code&gt;Search Box&lt;/code&gt; (Figure 4) to search your datasets by usig your name, lastname, title of your dataset or title of the publication related with your dataset.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://omicsdi.github.io/media/search-datasets.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Figure 4: Search your datasets&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;After clicking the dataset of interest a link in the dataset page allow you to claim and add to your pofile the dataset.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://omicsdi.github.io/media/claim-butoon.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Figure 5: Claim Datset Button&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Finally a new button is shown (Figure 6) where the user can see their dataset added to the profile.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://omicsdi.github.io/media/profile-butoon.png&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Figure 6: VIEW IN PROFILE&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Finally, all datsests are listed in your profile. The datasets can be removed from your Profile by using the &lt;code&gt;Edit Datasets&lt;/code&gt; in your Profile.&lt;/p&gt;
 </description>
     </item>
     
