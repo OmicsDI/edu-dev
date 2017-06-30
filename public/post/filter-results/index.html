@@ -138,12 +138,12 @@ The OmicsDI web application supports at the moment nine different refinements: <
 for a certain category and the system will filter the categories by the keywords the user specifies. For example (<strong>Figure 2</strong>), if the user is interested
 in <code>brain</code> tissue, then s/he can see all the tissues containing the keyword <code>brain</code>.</p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span></span>Notice that most of the filters are free text based meaning that their values rely on the
+
+Notice that most of the filters are free text based meaning that their values rely on the
 annotations provided by the specific databases.
 
 OmicsDI Team is always improving the automatic annotation system to move more attributes/properties of the dataset
 from Free-Text to ontology-based values.
-</code></pre></div>
 
 
 <p></br></br></p>
@@ -170,9 +170,13 @@ from Free-Text to ontology-based values.
 
 <p><strong>Relevance</strong></p>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span></span>The actual search is done via a call to Apache Lucene, which takes two arguments: the query and an upper bound on the number of hits (datasets) to return.
-Lucene scoring uses a combination of the Vector Space Model (VSM) of Information Retrieval and the Boolean model to determine how relevant a given Document is to a User&#39;s query. In general, the idea behind the VSM is the more times a query term appears in a document relative to the number of times the term appears in all the documents in the collection, the more relevant that document is to the query. It uses the Boolean model to first narrow down the documents that need to be scored based on the use of boolean logic in the Query specification. Lucene also adds some capabilities and refinements onto this model to support boolean and fuzzy searching, but it essentially remains a VSM based system at the heart.
-</code></pre></div>
+
+
+The actual search is done via a call to Apache Lucene, which takes two arguments: the query and an upper bound on the number of hits (datasets) to return.
+Lucene scoring uses a combination of the Vector Space Model (VSM) of Information Retrieval and the Boolean model to determine how relevant a given Document is to a User's query. In general, the idea behind the VSM is the more times a query term appears in a document relative to the number of times the term appears in all the documents in the collection, the more relevant that document is to the query. It uses the Boolean model to first narrow down the documents that need to be scored based on the use of boolean logic in the Query specification. Lucene also adds some capabilities and refinements onto this model to support boolean and fuzzy searching, but it essentially remains a VSM based system at the heart.
+
+
+
 
 
 	</div>

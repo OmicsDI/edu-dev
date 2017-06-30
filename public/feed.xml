@@ -48,74 +48,76 @@ better sense of the OmicsDI data before writing a single line of code.&lt;/li&gt
 
 &lt;p&gt;Example&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span&gt;&lt;/span&gt;    &lt;span class=&#34;err&#34;&gt;http://www.omicsdi.org/ws/dataset/search?query=human&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;count&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;733&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;datasets&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;id&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;PXD000456&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;source&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;pride&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;title&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;Human glomerular extracellular matrix analysed by LC-MSMS&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;description&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;Extracellular matrix proteins were isolated from human glomeruli and analysed by LC-MSMS&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;keywords&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
-    &lt;span class=&#34;s2&#34;&gt;&amp;quot;Human&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-    &lt;span class=&#34;s2&#34;&gt;&amp;quot;kidney&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-    &lt;span class=&#34;s2&#34;&gt;&amp;quot;glomerulus&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-    &lt;span class=&#34;s2&#34;&gt;&amp;quot;extracellular matrix&amp;quot;&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;organisms&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;acc&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;9606&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;name&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;Homo sapiens&amp;quot;&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;publicationDate&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;20140122&amp;quot;&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
-    &lt;span class=&#34;err&#34;&gt;//&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;19&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;more&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;datasets&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;facets&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;id&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;modification&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;label&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;Modification&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;total&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;181&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;facetValues&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;label&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;Unknown modification&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;value&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;unknown modification&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;count&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;5&amp;quot;&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
-    &lt;span class=&#34;err&#34;&gt;//other&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;facet&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;values&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
-    &lt;span class=&#34;err&#34;&gt;//other&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;facets&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+    http://www.omicsdi.org/ws/dataset/search?query=human
+    {
+    &#34;count&#34;: 733,
+    &#34;datasets&#34;: [
+    {
+    &#34;id&#34;: &#34;PXD000456&#34;,
+    &#34;source&#34;: &#34;pride&#34;,
+    &#34;title&#34;: &#34;Human glomerular extracellular matrix analysed by LC-MSMS&#34;,
+    &#34;description&#34;: &#34;Extracellular matrix proteins were isolated from human glomeruli and analysed by LC-MSMS&#34;,
+    &#34;keywords&#34;: [
+    &#34;Human&#34;,
+    &#34;kidney&#34;,
+    &#34;glomerulus&#34;,
+    &#34;extracellular matrix&#34;
+    ],
+    &#34;organisms&#34;: [
+    {
+    &#34;acc&#34;: &#34;9606&#34;,
+    &#34;name&#34;: &#34;Homo sapiens&#34;
+    }
+    ],
+    &#34;publicationDate&#34;: &#34;20140122&#34;
+    },
+    // 19 more datasets
+    ],
+    &#34;facets&#34;: [
+    {
+    &#34;id&#34;: &#34;modification&#34;,
+    &#34;label&#34;: &#34;Modification&#34;,
+    &#34;total&#34;: 181,
+    &#34;facetValues&#34;: [
+    {
+    &#34;label&#34;: &#34;Unknown modification&#34;,
+    &#34;value&#34;: &#34;unknown modification&#34;,
+    &#34;count&#34;: &#34;5&#34;
+    },
+    //other facet values
+    ],
+    },
+    //other facets
+    ]
+    }
 
 
 &lt;p&gt;Responses containing just a single dataset have some extra navigation fields, and without the facets&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span&gt;&lt;/span&gt;    &lt;span class=&#34;err&#34;&gt;http://www.omicsdi.org/ws/dataset/get?acc=PXD&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;001848&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&amp;amp;database=PRIDE&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;id&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;PXD001848&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;name&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;Global Analysis of Protein Folding Thermodynamics for Disease State Characterization, MCF7 vs MDAMB231&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;description&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;Protein biomarkers can be used to characterize and diagnose disease states such as cancer. They can also serve as therapeutic targets. Current methods for protein biomarker discovery, which generally rely on the large-scale analysis of gene and/or protein expression levels, fail to detect protein biomarkers with disease-related functions and unaltered expression levels. Here we describe the large-scale use of thermodynamic measurements of protein folding and stability for disease state characterization and the discovery of protein biomarkers. Using the Stable Isotope Labeling with Amino Acids in Cell Culture and Stability of Proteins from Rates of Oxidation (SILAC-SPROX) technique, we assayed ~800 proteins for protein folding and stability changes in three different cell culture models of breast cancer including the MCF-10A, MCF-7, and MDA-MB-231 cell lines. The thermodynamic stability profiles generated here created distinct molecular markers for the three cell lines, and a significant fraction (~45%) of the differentially stabilized proteins did not have altered expression levels. Thus, the protein biomarkers reported here created novel molecular signatures of breast cancer and provided additional insight into the molecular basis of the disease. Our results establish the utility of protein folding and stabilitymeasurements for the study of disease processes.&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;keywords&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;null&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;publicationDate&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;20150410&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;publications&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;id&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;25825992&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;publicationDate&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;2015-04-09&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;title&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;Global analysis of protein folding thermodynamics for disease state characterization.&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;pubabstract&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;Current methods for the large-scale characterization of disease states generally rely on the analysis of gene and/or protein expression levels. These existing methods fail to detect proteins with disease-related functions and unaltered expression levels. Here we describe the large-scale use of thermodynamic measurements of protein folding and stability for the characterization of disease states. Using the Stable Isotope Labeling with Amino Acids in Cell Culture and Stability of Proteins from Rates of Oxidation (SILAC-SPROX) technique, we assayed âˆ¼800 proteins for protein folding and stability changes in three different cell culture models of breast cancer including the MCF-10A, MCF-7, and MDA-MB-231 cell lines. The thermodynamic stability profiles generated here created distinct molecular markers to differentiate the three cell lines, and a significant fraction (âˆ¼45%) of the differentially stabilized proteins did not have altered expression levels. Thus, the differential thermodynamic profiling strategy reported here created novel molecular signatures of breast cancer and provided additional insight into the molecular basis of the disease. Our results establish the utility of protein folding and stability measurements for the study of disease processes, and they suggest that such measurements may be useful for biomarker discovery in disease.&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;cycle&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;testcyclehere&amp;quot;&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;related_datasets&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;null&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;data_protocol&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;Peak lists were extracted from the raw LC-MS/MS data files and the data were searched against the 20265 human proteins in the 2014-04 release of the UniProt Knowledgebase (downloaded at ftp://ftp.uniprot.org/pub/databases/uniprot/current_releases/release-2014_04/knowledgebase/) using Maxquant 1.3.0.5.41 The following modifications were used: methyl methanethiosulfonate at cysteine as a fixed modification, SILAC labeling of lysine (13C614N2) and arginine (13C6), and variable (0-1) oxidation of methionine and deamidation of Asparagine and Glutamine (N and Q), and acetylation of the protein N-terminus. The enzyme was set as Trypsin, and up to 2 missed cleavages were permitted. The false discovery rate for peptide and protein identifications was set to1%, and rest of the parameters were set at the default settings. As part of the default settings, the mass tolerance for precursor ions was set to 20 ppm for the first search where initial mass recalibration was completed and a 6 ppm precursor mass tolerance was used for the main search. The mass tolerance for fragment ions was 0.5 Da. We also included match between runs and re-quantification of the searched peptides. The search results were exported toExcel for further data analysis as described below. Only the protein and peptide identifications with no-zeropositive ratios (H/L &amp;gt;0) were used in subsequent data analysis steps. The methionine-containing peptides wereselected, and those methionine-containing peptides consistently identified in the protein samples derived from sixor more denaturant-containing buffers were assayed. For the methionine-containing peptides, a single averaged H/Lratio was calculated for each peptide sequence and each charge state at each denaturant concentration. Similarly, for each analysis, a median H/L ratio was determined for each protein using the H/L ratios measured for all thenon-methionine-containing peptides identified in all the denaturant concentrations for a given protein. These medianH/L ratios were used to select hits with H/L&amp;gt;2 fold in the protein expression level analyses. For hit peptide andprotein selection in the thermodynamic analyses, all the H/L ratios generated for the non-methionine containingpeptides from a given protein were divided by the median H/L ratio for that protein in order to generate normalizedH/L ratios for each non-methionine containing peptide. These normalized H/L ratios were log2 transformed. Thenormalized and log2 transformed H/L ratios generated for the non-methionine-containing peptides in a given analysiswere used to determine the 5th and 95th percentiles values used in subsequent analysis of methionine-containingpeptides. The averaged H/L ratios calculated for each methionine-containing peptides were also normalized and log2transformed. The methionine-containing peptides and proteins with log2 transformed H/L ratios less than the 5thpercentile or greater than the 95th percentile values determined above were selected and then visually inspected todetermine which peptides had altered H/L ratios at 2 or more consecutive denaturant concentrations to generate aninitial list of protein hits.&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
-    &lt;span class=&#34;nt&#34;&gt;&amp;quot;sample_protocol&amp;quot;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;quot;SILAC labeled MCF-7 and MDA-MB-231 cell lysates were prepared according to established SILAC protocols. Aliquots of each lysate were distributed into a series of denaturant-containing buffers, reacted with hydrogen peroxide under conditions that selectively oxidize exposed methionine residues, and quenched with the addition of excess methionine. The light and heavy samples generated at matching denaturant concentration were combined. Each combined protein sample was submitted to a bottom-up, solution-phase, shotgun proteomics analysis using LC-MS/MS. Ultimately, L/H ratios were obtained for the peptides detected at each denaturant concentration, and the denaturant dependence of the L/H ratioâ€™s was examined.&amp;quot;&lt;/span&gt;
-    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+    http://www.omicsdi.org/ws/dataset/get?acc=PXD001848&amp;database=PRIDE
+    {
+    &#34;id&#34;: &#34;PXD001848&#34;,
+    &#34;name&#34;: &#34;Global Analysis of Protein Folding Thermodynamics for Disease State Characterization, MCF7 vs MDAMB231&#34;,
+    &#34;description&#34;: &#34;Protein biomarkers can be used to characterize and diagnose disease states such as cancer. They can also serve as therapeutic targets. Current methods for protein biomarker discovery, which generally rely on the large-scale analysis of gene and/or protein expression levels, fail to detect protein biomarkers with disease-related functions and unaltered expression levels. Here we describe the large-scale use of thermodynamic measurements of protein folding and stability for disease state characterization and the discovery of protein biomarkers. Using the Stable Isotope Labeling with Amino Acids in Cell Culture and Stability of Proteins from Rates of Oxidation (SILAC-SPROX) technique, we assayed ~800 proteins for protein folding and stability changes in three different cell culture models of breast cancer including the MCF-10A, MCF-7, and MDA-MB-231 cell lines. The thermodynamic stability profiles generated here created distinct molecular markers for the three cell lines, and a significant fraction (~45%) of the differentially stabilized proteins did not have altered expression levels. Thus, the protein biomarkers reported here created novel molecular signatures of breast cancer and provided additional insight into the molecular basis of the disease. Our results establish the utility of protein folding and stabilitymeasurements for the study of disease processes.&#34;,
+    &#34;keywords&#34;: null,
+    &#34;publicationDate&#34;: &#34;20150410&#34;,
+    &#34;publications&#34;: [
+    {
+    &#34;id&#34;: &#34;25825992&#34;,
+    &#34;publicationDate&#34;: &#34;2015-04-09&#34;,
+    &#34;title&#34;: &#34;Global analysis of protein folding thermodynamics for disease state characterization.&#34;,
+    &#34;pubabstract&#34;: &#34;Current methods for the large-scale characterization of disease states generally rely on the analysis of gene and/or protein expression levels. These existing methods fail to detect proteins with disease-related functions and unaltered expression levels. Here we describe the large-scale use of thermodynamic measurements of protein folding and stability for the characterization of disease states. Using the Stable Isotope Labeling with Amino Acids in Cell Culture and Stability of Proteins from Rates of Oxidation (SILAC-SPROX) technique, we assayed âˆ¼800 proteins for protein folding and stability changes in three different cell culture models of breast cancer including the MCF-10A, MCF-7, and MDA-MB-231 cell lines. The thermodynamic stability profiles generated here created distinct molecular markers to differentiate the three cell lines, and a significant fraction (âˆ¼45%) of the differentially stabilized proteins did not have altered expression levels. Thus, the differential thermodynamic profiling strategy reported here created novel molecular signatures of breast cancer and provided additional insight into the molecular basis of the disease. Our results establish the utility of protein folding and stability measurements for the study of disease processes, and they suggest that such measurements may be useful for biomarker discovery in disease.&#34;,
+    &#34;cycle&#34;: &#34;testcyclehere&#34;
+    }
+    ],
+    &#34;related_datasets&#34;: null,
+    &#34;data_protocol&#34;: &#34;Peak lists were extracted from the raw LC-MS/MS data files and the data were searched against the 20265 human proteins in the 2014-04 release of the UniProt Knowledgebase (downloaded at ftp://ftp.uniprot.org/pub/databases/uniprot/current_releases/release-2014_04/knowledgebase/) using Maxquant 1.3.0.5.41 The following modifications were used: methyl methanethiosulfonate at cysteine as a fixed modification, SILAC labeling of lysine (13C614N2) and arginine (13C6), and variable (0-1) oxidation of methionine and deamidation of Asparagine and Glutamine (N and Q), and acetylation of the protein N-terminus. The enzyme was set as Trypsin, and up to 2 missed cleavages were permitted. The false discovery rate for peptide and protein identifications was set to1%, and rest of the parameters were set at the default settings. As part of the default settings, the mass tolerance for precursor ions was set to 20 ppm for the first search where initial mass recalibration was completed and a 6 ppm precursor mass tolerance was used for the main search. The mass tolerance for fragment ions was 0.5 Da. We also included match between runs and re-quantification of the searched peptides. The search results were exported toExcel for further data analysis as described below. Only the protein and peptide identifications with no-zeropositive ratios (H/L &gt;0) were used in subsequent data analysis steps. The methionine-containing peptides wereselected, and those methionine-containing peptides consistently identified in the protein samples derived from sixor more denaturant-containing buffers were assayed. For the methionine-containing peptides, a single averaged H/Lratio was calculated for each peptide sequence and each charge state at each denaturant concentration. Similarly, for each analysis, a median H/L ratio was determined for each protein using the H/L ratios measured for all thenon-methionine-containing peptides identified in all the denaturant concentrations for a given protein. These medianH/L ratios were used to select hits with H/L&gt;2 fold in the protein expression level analyses. For hit peptide andprotein selection in the thermodynamic analyses, all the H/L ratios generated for the non-methionine containingpeptides from a given protein were divided by the median H/L ratio for that protein in order to generate normalizedH/L ratios for each non-methionine containing peptide. These normalized H/L ratios were log2 transformed. Thenormalized and log2 transformed H/L ratios generated for the non-methionine-containing peptides in a given analysiswere used to determine the 5th and 95th percentiles values used in subsequent analysis of methionine-containingpeptides. The averaged H/L ratios calculated for each methionine-containing peptides were also normalized and log2transformed. The methionine-containing peptides and proteins with log2 transformed H/L ratios less than the 5thpercentile or greater than the 95th percentile values determined above were selected and then visually inspected todetermine which peptides had altered H/L ratios at 2 or more consecutive denaturant concentrations to generate aninitial list of protein hits.&#34;,
+    &#34;sample_protocol&#34;: &#34;SILAC labeled MCF-7 and MDA-MB-231 cell lysates were prepared according to established SILAC protocols. Aliquots of each lysate were distributed into a series of denaturant-containing buffers, reacted with hydrogen peroxide under conditions that selectively oxidize exposed methionine residues, and quenched with the addition of excess methionine. The light and heavy samples generated at matching denaturant concentration were combined. Each combined protein sample was submitted to a bottom-up, solution-phase, shotgun proteomics analysis using LC-MS/MS. Ultimately, L/H ratios were obtained for the peptides detected at each denaturant concentration, and the denaturant dependence of the L/H ratioâ€™s was examined.&#34;
+    }
 
 
 &lt;h3 id=&#34;pagination&#34;&gt;Pagination&lt;/h3&gt;
@@ -309,12 +311,12 @@ The OmicsDI web application supports at the moment nine different refinements: &
 for a certain category and the system will filter the categories by the keywords the user specifies. For example (&lt;strong&gt;Figure 2&lt;/strong&gt;), if the user is interested
 in &lt;code&gt;brain&lt;/code&gt; tissue, then s/he can see all the tissues containing the keyword &lt;code&gt;brain&lt;/code&gt;.&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span&gt;&lt;/span&gt;Notice that most of the filters are free text based meaning that their values rely on the
+
+Notice that most of the filters are free text based meaning that their values rely on the
 annotations provided by the specific databases.
 
 OmicsDI Team is always improving the automatic annotation system to move more attributes/properties of the dataset
 from Free-Text to ontology-based values.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;&lt;/br&gt;&lt;/br&gt;&lt;/p&gt;
@@ -341,9 +343,13 @@ from Free-Text to ontology-based values.
 
 &lt;p&gt;&lt;strong&gt;Relevance&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span&gt;&lt;/span&gt;The actual search is done via a call to Apache Lucene, which takes two arguments: the query and an upper bound on the number of hits (datasets) to return.
-Lucene scoring uses a combination of the Vector Space Model (VSM) of Information Retrieval and the Boolean model to determine how relevant a given Document is to a User&amp;#39;s query. In general, the idea behind the VSM is the more times a query term appears in a document relative to the number of times the term appears in all the documents in the collection, the more relevant that document is to the query. It uses the Boolean model to first narrow down the documents that need to be scored based on the use of boolean logic in the Query specification. Lucene also adds some capabilities and refinements onto this model to support boolean and fuzzy searching, but it essentially remains a VSM based system at the heart.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+The actual search is done via a call to Apache Lucene, which takes two arguments: the query and an upper bound on the number of hits (datasets) to return.
+Lucene scoring uses a combination of the Vector Space Model (VSM) of Information Retrieval and the Boolean model to determine how relevant a given Document is to a User&#39;s query. In general, the idea behind the VSM is the more times a query term appears in a document relative to the number of times the term appears in all the documents in the collection, the more relevant that document is to the query. It uses the Boolean model to first narrow down the documents that need to be scored based on the use of boolean logic in the Query specification. Lucene also adds some capabilities and refinements onto this model to support boolean and fuzzy searching, but it essentially remains a VSM based system at the heart.
+
+
+
 
 </description>
     </item>
@@ -378,8 +384,8 @@ OmicsDI has implemented a &lt;strong&gt;unique&lt;/strong&gt; and &lt;strong&gt;
 &lt;p&gt;The &lt;code&gt;OmicsDI Search Box&lt;/code&gt; is the main component to searching in OmicsDI. The &lt;code&gt;user&lt;/code&gt; can type a set of &lt;strong&gt;keywords&lt;/strong&gt; that will enable the system
 to find the datasets containing those keywords.&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span&gt;&lt;/span&gt;If the user uses double quote &lt;span class=&#34;s2&#34;&gt;&amp;quot;breast cancer&amp;quot;&lt;/span&gt; in their search the system will try to find the exact sentence in the datasets.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+If the user uses double quote &#34;breast cancer&#34; in their search the system will try to find the exact sentence in the datasets.
 
 
 &lt;p&gt;The &lt;code&gt;OmicsDI Search Box&lt;/code&gt; provides a unique &lt;strong&gt;auto-complete&lt;/strong&gt; feature that enables &lt;code&gt;user&lt;/code&gt; to select sentence after typing a subset of keywords. For example,
@@ -485,8 +491,8 @@ of results is based on their relevance, i.e. the proximity of the terms in the e
 
 &lt;p&gt;The following characters within queries require to be escaped (using a &amp;lsquo; \ &amp;lsquo; before the character to escape) in order to be correctly interpreted:&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span&gt;&lt;/span&gt;+ - &lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; ! &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; ^ &lt;span class=&#34;s2&#34;&gt;&amp;quot; ~ * ? : \ /&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
++ - &amp; | ! ( ) { } [ ] ^ &#34; ~ * ? : \ /
 
 
 &lt;p&gt;Since Apache Lucene supports regular expression searches (matching a pattern between forwarding slashes) the forward slash &amp;lsquo; / &amp;rsquo; has become a special character to be escaped. For example to search for

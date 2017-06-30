@@ -57,12 +57,12 @@ The OmicsDI web application supports at the moment nine different refinements: &
 for a certain category and the system will filter the categories by the keywords the user specifies. For example (&lt;strong&gt;Figure 2&lt;/strong&gt;), if the user is interested
 in &lt;code&gt;brain&lt;/code&gt; tissue, then s/he can see all the tissues containing the keyword &lt;code&gt;brain&lt;/code&gt;.&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span&gt;&lt;/span&gt;Notice that most of the filters are free text based meaning that their values rely on the
+
+Notice that most of the filters are free text based meaning that their values rely on the
 annotations provided by the specific databases.
 
 OmicsDI Team is always improving the automatic annotation system to move more attributes/properties of the dataset
 from Free-Text to ontology-based values.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;&lt;/br&gt;&lt;/br&gt;&lt;/p&gt;
@@ -89,9 +89,13 @@ from Free-Text to ontology-based values.
 
 &lt;p&gt;&lt;strong&gt;Relevance&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span&gt;&lt;/span&gt;The actual search is done via a call to Apache Lucene, which takes two arguments: the query and an upper bound on the number of hits (datasets) to return.
-Lucene scoring uses a combination of the Vector Space Model (VSM) of Information Retrieval and the Boolean model to determine how relevant a given Document is to a User&amp;#39;s query. In general, the idea behind the VSM is the more times a query term appears in a document relative to the number of times the term appears in all the documents in the collection, the more relevant that document is to the query. It uses the Boolean model to first narrow down the documents that need to be scored based on the use of boolean logic in the Query specification. Lucene also adds some capabilities and refinements onto this model to support boolean and fuzzy searching, but it essentially remains a VSM based system at the heart.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+The actual search is done via a call to Apache Lucene, which takes two arguments: the query and an upper bound on the number of hits (datasets) to return.
+Lucene scoring uses a combination of the Vector Space Model (VSM) of Information Retrieval and the Boolean model to determine how relevant a given Document is to a User&#39;s query. In general, the idea behind the VSM is the more times a query term appears in a document relative to the number of times the term appears in all the documents in the collection, the more relevant that document is to the query. It uses the Boolean model to first narrow down the documents that need to be scored based on the use of boolean logic in the Query specification. Lucene also adds some capabilities and refinements onto this model to support boolean and fuzzy searching, but it essentially remains a VSM based system at the heart.
+
+
+
 
 </description>
     </item>
@@ -126,8 +130,8 @@ OmicsDI has implemented a &lt;strong&gt;unique&lt;/strong&gt; and &lt;strong&gt;
 &lt;p&gt;The &lt;code&gt;OmicsDI Search Box&lt;/code&gt; is the main component to searching in OmicsDI. The &lt;code&gt;user&lt;/code&gt; can type a set of &lt;strong&gt;keywords&lt;/strong&gt; that will enable the system
 to find the datasets containing those keywords.&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span&gt;&lt;/span&gt;If the user uses double quote &lt;span class=&#34;s2&#34;&gt;&amp;quot;breast cancer&amp;quot;&lt;/span&gt; in their search the system will try to find the exact sentence in the datasets.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+If the user uses double quote &#34;breast cancer&#34; in their search the system will try to find the exact sentence in the datasets.
 
 
 &lt;p&gt;The &lt;code&gt;OmicsDI Search Box&lt;/code&gt; provides a unique &lt;strong&gt;auto-complete&lt;/strong&gt; feature that enables &lt;code&gt;user&lt;/code&gt; to select sentence after typing a subset of keywords. For example,
@@ -233,8 +237,8 @@ of results is based on their relevance, i.e. the proximity of the terms in the e
 
 &lt;p&gt;The following characters within queries require to be escaped (using a &amp;lsquo; \ &amp;lsquo; before the character to escape) in order to be correctly interpreted:&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span&gt;&lt;/span&gt;+ - &lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; ! &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; ^ &lt;span class=&#34;s2&#34;&gt;&amp;quot; ~ * ? : \ /&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
++ - &amp; | ! ( ) { } [ ] ^ &#34; ~ * ? : \ /
 
 
 &lt;p&gt;Since Apache Lucene supports regular expression searches (matching a pattern between forwarding slashes) the forward slash &amp;lsquo; / &amp;rsquo; has become a special character to be escaped. For example to search for

@@ -38,8 +38,8 @@ OmicsDI has implemented a &lt;strong&gt;unique&lt;/strong&gt; and &lt;strong&gt;
 &lt;p&gt;The &lt;code&gt;OmicsDI Search Box&lt;/code&gt; is the main component to searching in OmicsDI. The &lt;code&gt;user&lt;/code&gt; can type a set of &lt;strong&gt;keywords&lt;/strong&gt; that will enable the system
 to find the datasets containing those keywords.&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span&gt;&lt;/span&gt;If the user uses double quote &lt;span class=&#34;s2&#34;&gt;&amp;quot;breast cancer&amp;quot;&lt;/span&gt; in their search the system will try to find the exact sentence in the datasets.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+If the user uses double quote &#34;breast cancer&#34; in their search the system will try to find the exact sentence in the datasets.
 
 
 &lt;p&gt;The &lt;code&gt;OmicsDI Search Box&lt;/code&gt; provides a unique &lt;strong&gt;auto-complete&lt;/strong&gt; feature that enables &lt;code&gt;user&lt;/code&gt; to select sentence after typing a subset of keywords. For example,
@@ -145,8 +145,8 @@ of results is based on their relevance, i.e. the proximity of the terms in the e
 
 &lt;p&gt;The following characters within queries require to be escaped (using a &amp;lsquo; \ &amp;lsquo; before the character to escape) in order to be correctly interpreted:&lt;/p&gt;
 
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span&gt;&lt;/span&gt;+ - &lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; ! &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; ^ &lt;span class=&#34;s2&#34;&gt;&amp;quot; ~ * ? : \ /&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
++ - &amp; | ! ( ) { } [ ] ^ &#34; ~ * ? : \ /
 
 
 &lt;p&gt;Since Apache Lucene supports regular expression searches (matching a pattern between forwarding slashes) the forward slash &amp;lsquo; / &amp;rsquo; has become a special character to be escaped. For example to search for
