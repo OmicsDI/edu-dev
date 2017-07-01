@@ -270,22 +270,22 @@ of large amounts of data and to speed up the &lt;code&gt;API&lt;/code&gt;. The &
       <guid>https://omicsdi.github.io/post/claiming-datasests/</guid>
       <description>
 
-&lt;p&gt;One of the first request OmicsDI team (January/2017) received after the official release of the resource was the posibility to login into the system and associated to the user the related public datasets. The original request was informally made by professor Rob Beynon of Liverpool University (@astacus) and replied by Laurent Gatto @lgatt0 .&lt;/p&gt;
+&lt;p&gt;One of the first request OmicsDI team (January/2017) received after the official release of the resource was the possibility to login into the system and associated to the user the related public datasets. The original request was informally made by Professor Rob Beynon of Liverpool University (@astacus) and replied by Laurent Gatto @lgatt0 .&lt;/p&gt;
 
 &lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;try &lt;a href=&#34;https://twitter.com/OmicsDI&#34;&gt;@OmicsDI&lt;/a&gt;. That should do it, I believe&lt;/p&gt;&amp;mdash; Laurent Gⓐtt⓪ (@lgatt0) &lt;a href=&#34;https://twitter.com/lgatt0/status/816199103495421952&#34;&gt;January 3, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 
-&lt;p&gt;For more than 3 momths, OmicsDI Team (www.omicsdi.org) has been working on this feature and we are proud to announce it formal release today. The user profile in OmicsDI follow has a simple aim:&lt;/p&gt;
+&lt;p&gt;For more than 3 months, OmicsDI Team (www.omicsdi.org) has been working on this feature and we are proud to announce it formal release today. The user profile in OmicsDI follow has a simple aim:&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Provide a central resource where scientist can agreegate all their public omics datasets previously deposited omcis archives and repositories.&lt;/p&gt;
+&lt;p&gt;Provide a central resource where scientist can aggregate all their public omics datasets previously deposited omics archives and repositories.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;The OmicsDI Profile is build on two different components:&lt;/p&gt;
+&lt;p&gt;The OmicsDI Profile is built on two different components:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;The User Profile: General information about the User (Name, email, affiliation, Account connections).&lt;/li&gt;
-&lt;li&gt;My Datasests: List of public datasests. &lt;a href=&#34;https://scholar.google.co.uk/intl/en/scholar/about.html&#34;&gt;Similar to Google Scholar for publications&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;My Datasets: List of public datasets. &lt;a href=&#34;https://scholar.google.co.uk/intl/en/scholar/about.html&#34;&gt;Similar to Google Scholar for publications&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;omicsdi-user-profile&#34;&gt;OmicsDI User Profile.&lt;/h2&gt;
@@ -322,7 +322,7 @@ of large amounts of data and to speed up the &lt;code&gt;API&lt;/code&gt;. The &
 &lt;/figure&gt;
 
 
-&lt;p&gt;When a user log in to OmicsDI some general information is pull from the source account (e.g. ORCID). However this data is incomplete. Then, the first step is to &lt;strong&gt;Edit Profile&lt;/strong&gt; where the user can update the: &lt;code&gt;photo&lt;/code&gt;, &lt;code&gt;affiliation&lt;/code&gt;, &lt;code&gt;email&lt;/code&gt;, &lt;code&gt;short biography&lt;/code&gt;, &lt;code&gt;Make my profile public&lt;/code&gt;. The last option (Figure 3) enables the un-registered users to see your profile (datasets).&lt;/p&gt;
+&lt;p&gt;When a user logs into OmicsDI some general information is pulled from the source account (e.g. ORCID). However, this data is incomplete. Then, the first step is to &lt;strong&gt;Edit Profile&lt;/strong&gt; where the user can update the: &lt;code&gt;photo&lt;/code&gt;, &lt;code&gt;affiliation&lt;/code&gt;, &lt;code&gt;email&lt;/code&gt;, &lt;code&gt;short biography&lt;/code&gt;, &lt;code&gt;Make my profile public&lt;/code&gt;. The last option (Figure 3) enables the non-registered users to see your profile (datasets).&lt;/p&gt;
 
 
 &lt;figure &gt;
@@ -340,9 +340,9 @@ of large amounts of data and to speed up the &lt;code&gt;API&lt;/code&gt;. The &
 
 &lt;p&gt;After the Profile is updated, the user can start adding (&lt;code&gt;claiming&lt;/code&gt;) its datasets.&lt;/p&gt;
 
-&lt;h2 id=&#34;my-datasests&#34;&gt;My Datasests&lt;/h2&gt;
+&lt;h2 id=&#34;my-datasets&#34;&gt;My Datasets&lt;/h2&gt;
 
-&lt;p&gt;Users can use the OmicsDI &lt;code&gt;Search Box&lt;/code&gt; (Figure 4) to search your datasets by usig your name, lastname, title of your dataset or title of the publication related with your dataset.&lt;/p&gt;
+&lt;p&gt;Users can use the OmicsDI &lt;code&gt;Search Box&lt;/code&gt; (Figure 4) to search your datasets by using your name, last name, a title of your dataset or title of the publication related with your dataset.&lt;/p&gt;
 
 
 &lt;figure &gt;
@@ -358,7 +358,7 @@ of large amounts of data and to speed up the &lt;code&gt;API&lt;/code&gt;. The &
 &lt;/figure&gt;
 
 
-&lt;p&gt;After clicking the dataset of interest a link in the dataset page allow you to claim and add to your pofile the dataset.&lt;/p&gt;
+&lt;p&gt;After clicking the dataset of interest a link in the dataset page allow you to claim and add to your profile the dataset.&lt;/p&gt;
 
 
 &lt;figure &gt;
@@ -374,7 +374,7 @@ of large amounts of data and to speed up the &lt;code&gt;API&lt;/code&gt;. The &
 &lt;/figure&gt;
 
 
-&lt;p&gt;Finally a new button is shown (Figure 6) where the user can see their dataset added to the profile.&lt;/p&gt;
+&lt;p&gt;Finally, a new button is shown (Figure 6) where the user can see their dataset added to the profile.&lt;/p&gt;
 
 
 &lt;figure &gt;
@@ -390,7 +390,7 @@ of large amounts of data and to speed up the &lt;code&gt;API&lt;/code&gt;. The &
 &lt;/figure&gt;
 
 
-&lt;p&gt;Finally, all datsests are listed in your profile. The datasets can be removed from your Profile by using the &lt;code&gt;Edit Datasets&lt;/code&gt; in your Profile.&lt;/p&gt;
+&lt;p&gt;Finally, all datasets are listed in your profile. The datasets can be removed from your Profile by using the &lt;code&gt;Edit Datasets&lt;/code&gt; in your Profile.&lt;/p&gt;
 </description>
     </item>
     
