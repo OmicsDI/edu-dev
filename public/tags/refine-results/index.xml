@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Refine Results on OmicsDI Blog</title>
+    <link>https://omicsdi.github.io/tags/refine-results/</link>
+    <description>Recent content in Refine Results on OmicsDI Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Feb 2017 14:04:54 +0000</lastBuildDate>
+    
+	<atom:link href="https://omicsdi.github.io/tags/refine-results/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Filtering search results</title>
+      <link>https://omicsdi.github.io/post/filter-results/</link>
+      <pubDate>Mon, 20 Feb 2017 14:04:54 +0000</pubDate>
+      
+      <guid>https://omicsdi.github.io/post/filter-results/</guid>
+      <description>The search results can be filtered or refined using different filters or terms (Figure 1). The OmicsDI web application supports at the moment nine different refinements: Omics Type, repository/database, Organisms, Tissue, diseases, Modifications (proteomics), Instruments and platforms, Publication data, Technology type.
+  Figure 1: Filtering results of Search in the Browse Page   
+Filter Box  Figure 2: Tissue Filter Box   Each Filter Box shows the number of datasets within each category (e.</description>
+    </item>
+    
+  </channel>
+</rss>

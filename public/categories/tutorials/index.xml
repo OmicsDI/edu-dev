@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorials on OmicsDI Blog</title>
+    <link>https://omicsdi.github.io/categories/tutorials/</link>
+    <description>Recent content in Tutorials on OmicsDI Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Feb 2017 14:04:54 +0000</lastBuildDate>
+    
+	<atom:link href="https://omicsdi.github.io/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Claiming datasets in OmicsDI</title>
+      <link>https://omicsdi.github.io/post/claiming-datasests/</link>
+      <pubDate>Mon, 20 Feb 2017 14:04:54 +0000</pubDate>
+      
+      <guid>https://omicsdi.github.io/post/claiming-datasests/</guid>
+      <description>One of the first request OmicsDI team (January/2017) received after the official release of the resource was the possibility to login into the system and associated to the user the related public datasets. The original request was informally made by Professor Rob Beynon of Liverpool University (@astacus) and replied by Laurent Gatto @lgatt0 .
+try @OmicsDI. That should do it, I believe
+&amp;mdash; Laurent Gⓐtt⓪ (@lgatt0) January 3, 2017</description>
+    </item>
+    
+    <item>
+      <title>Filtering search results</title>
+      <link>https://omicsdi.github.io/post/filter-results/</link>
+      <pubDate>Mon, 20 Feb 2017 14:04:54 +0000</pubDate>
+      
+      <guid>https://omicsdi.github.io/post/filter-results/</guid>
+      <description>The search results can be filtered or refined using different filters or terms (Figure 1). The OmicsDI web application supports at the moment nine different refinements: Omics Type, repository/database, Organisms, Tissue, diseases, Modifications (proteomics), Instruments and platforms, Publication data, Technology type.
+  Figure 1: Filtering results of Search in the Browse Page   
+Filter Box  Figure 2: Tissue Filter Box   Each Filter Box shows the number of datasets within each category (e.</description>
+    </item>
+    
+    <item>
+      <title>Searching in OmicsDI</title>
+      <link>https://omicsdi.github.io/post/searching-in-omicsdi/</link>
+      <pubDate>Mon, 20 Feb 2017 10:02:07 +0000</pubDate>
+      
+      <guid>https://omicsdi.github.io/post/searching-in-omicsdi/</guid>
+      <description>The main goal of the Omics Discovery Index is to provide a platform for searching and linking omics public data. OmicsDI has implemented a unique and novel Search Engine for omics datasets including public and protected data.
+The OmicsDI Search Box   Figure 1: OmicsDI Search Box   The OmicsDI Search Box is the main component to searching in OmicsDI. The user can type a set of keywords that will enable the system to find the datasets containing those keywords.</description>
+    </item>
+    
+    <item>
+      <title>Navigating Omics from the home page</title>
+      <link>https://omicsdi.github.io/post/navigation-from-home/</link>
+      <pubDate>Mon, 20 Feb 2017 01:17:55 +0000</pubDate>
+      
+      <guid>https://omicsdi.github.io/post/navigation-from-home/</guid>
+      <description>The OmicsDI Home Page provides different blocks for navigating through the datasets, some of them are: 2D WordCloud; the species/organism/diseases Bubble Chart, repository/omics Bar Chart, Latest Datasets List, Most Accessed Datasets List, Datasets per year List. All the charts allow the user to search the data using the specific attribute. These boxes also act as a statistic component of the resource: for example, the pie chart shows how many datasets for each repository and omics the resource contains.</description>
+    </item>
+    
+  </channel>
+</rss>

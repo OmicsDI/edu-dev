@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Submission on OmicsDI Blog</title>
+    <link>https://omicsdi.github.io/tags/data-submission/</link>
+    <description>Recent content in Data Submission on OmicsDI Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Feb 2017 23:48:18 +0000</lastBuildDate>
+    
+	<atom:link href="https://omicsdi.github.io/tags/data-submission/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Welcome to OmicsDI Edu page</title>
+      <link>https://omicsdi.github.io/post/welcome-to-omicsdi/</link>
+      <pubDate>Fri, 17 Feb 2017 23:48:18 +0000</pubDate>
+      
+      <guid>https://omicsdi.github.io/post/welcome-to-omicsdi/</guid>
+      <description>Omics Discovery Index is an integrated and open source platform facilitating the access and dissemination of omics datasets. It provides a unique infrastructure to integrate datasets coming from multiple omics studies, including at present proteomics, genomics, transcriptomics and metabolomics.
+OmicsDI stores metadata coming from the public datasets from every resource using an efficient indexing system, which is able to integrate different biological entities including genes, proteins and metabolites with the relevant life science literature.</description>
+    </item>
+    
+  </channel>
+</rss>

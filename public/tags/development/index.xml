@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on OmicsDI Blog</title>
+    <link>https://omicsdi.github.io/tags/development/</link>
+    <description>Recent content in Development on OmicsDI Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Feb 2017 22:56:34 +0000</lastBuildDate>
+    
+	<atom:link href="https://omicsdi.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction to OmicsDI API</title>
+      <link>https://omicsdi.github.io/post/introduction-api/</link>
+      <pubDate>Mon, 27 Feb 2017 22:56:34 +0000</pubDate>
+      
+      <guid>https://omicsdi.github.io/post/introduction-api/</guid>
+      <description>Most data in the Datatsets Discovery Index can be accessed programmatically using a RESTful API. The API implementation is based on the Spring Rest Framework.
+Web-browsable API The OmicsDI API is web browsable, which means that:
+ The query results returned by the API are available in JSONformat and also XML. This ensures that they can be viewed by human and accessed programmatically by computer. The main RESTful API page provides a simple web-based user interface, which allows developers to familiarize themselves with the API and get a better sense of the OmicsDI data before writing a single line of code.</description>
+    </item>
+    
+  </channel>
+</rss>

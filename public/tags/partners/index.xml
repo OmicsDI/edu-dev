@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Partners on OmicsDI Blog</title>
+    <link>https://omicsdi.github.io/tags/partners/</link>
+    <description>Recent content in Partners on OmicsDI Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Feb 2017 23:09:18 +0000</lastBuildDate>
+    
+	<atom:link href="https://omicsdi.github.io/tags/partners/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OmicsDI major partners</title>
+      <link>https://omicsdi.github.io/post/partners/</link>
+      <pubDate>Fri, 17 Feb 2017 23:09:18 +0000</pubDate>
+      
+      <guid>https://omicsdi.github.io/post/partners/</guid>
+      <description>OmicsDI has been built with the collaboration of multiple consortia and individual databases. This collaboration has enabled the standardization of the metadata across multiple resources and omics type. Each consortium group a set of databases around the same topic (e.g. proteomics) and has previously agree in a common metadata including Ontology Terms, Study Design, etc. At the same time, OmicsDI has collaborated with other individual archives and databases such as ArrayExpress or EGA.</description>
+    </item>
+    
+  </channel>
+</rss>
