@@ -25,11 +25,11 @@ The intensity of the colour leaves in the flower will change depending on the va
 
 <img src="/media/rosette-samples.png">
 
-The number in the centre of the Rosette's shows the aggregated score (Omics score), which represent how much attention the people are giving to this dataset. The Omics score is computed using all the normalized metrics
-(Reanalyses, Citations, Views, Downloads and Connections). The formula for this metric will be estimated as described in the equation below:
+The number in the centre of the Rosette's shows the aggregated score (Omics score), which represent how much attention the people are giving to this dataset. The Omics score is computed using all the normalized metrics, including 
+Reanalyses (P), Citations (Ci), Views (V), Downloads (D) and Connections (Co). The formula for this metric will be estimated as described in the equation below:
 
 <img src="/media/omics-score.png">
-
+Where d is a dataset belonging to Omics DI database (Odi).\
 To get the actual number of the dataset's metric, hovering the mouse to anywhere inside the chart. A tooltip with the actual value as well as it's normalised value (in percent) will appear:
 
 <img src="/media/rosette.png">
