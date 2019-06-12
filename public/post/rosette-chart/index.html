@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="pinterest" content="nopin">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="generator" content="Hugo 0.55.6" />
+
+
+
+<link rel="canonical" href="https://omicsdi.github.io/post/rosette-chart/">
+
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
+    <title>Rosette chart in OmicsDI - OmicsDI Blog</title>
+    
+<meta name="description" content="Rosette chart is a feature that shows multiple different normalized metrics of it&amp;rsquo;s dataset, including Reanalyses, Citations, Views, Downloads and Connections.With this feature, we can see how much attention people are giving to this dataset by just a quick look. The chart can be found at the search&amp;rsquo;s result:  Or in the dataset&amp;rsquo;s details page:  The colour of each of the leaves in the flower is representing a different type of the dataset metrics:">
+
+<meta property="og:title" content="Rosette chart in OmicsDI - OmicsDI Blog">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://omicsdi.github.io/post/rosette-chart/">
+<meta property="og:image" content="https://omicsdi.github.io/images/default.png">
+<meta property="og:site_name" content="OmicsDI Blog">
+<meta property="og:description" content="Rosette chart is a feature that shows multiple different normalized metrics of it&amp;rsquo;s dataset, including Reanalyses, Citations, Views, Downloads and Connections.With this feature, we can see how much attention people are giving to this dataset by just a quick look. The chart can be found at the search&amp;rsquo;s result:  Or in the dataset&amp;rsquo;s details page:  The colour of each of the leaves in the flower is representing a different type of the dataset metrics:">
+<meta property="og:locale" content="ja_JP">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="OmicsDI Blog">
+<meta name="twitter:url" content="https://omicsdi.github.io/post/rosette-chart/">
+<meta name="twitter:title" content="Rosette chart in OmicsDI - OmicsDI Blog">
+<meta name="twitter:description" content="Rosette chart is a feature that shows multiple different normalized metrics of it&amp;rsquo;s dataset, including Reanalyses, Citations, Views, Downloads and Connections.With this feature, we can see how much attention people are giving to this dataset by just a quick look. The chart can be found at the search&amp;rsquo;s result:  Or in the dataset&amp;rsquo;s details page:  The colour of each of the leaves in the flower is representing a different type of the dataset metrics:">
+<meta name="twitter:image" content="https://omicsdi.github.io/images/default.png">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id":"https:\/\/omicsdi.github.io\/"
+    },
+    "headline": "Rosette chart in OmicsDI - OmicsDI Blog",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https:\/\/omicsdi.github.io\/images\/default.png",
+      "height": 800,
+      "width": 800
+    },
+    "datePublished": "2019-06-11T15:26:54JST",
+    "dateModified": "2019-06-11T15:26:54JST",
+    "author": {
+      "@type": "Person",
+      "name": "OmicsDI Blog"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OmicsDI Blog",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https:\/\/omicsdi.github.io\/images/logo.png",
+        "width": 600,
+        "height": 60
+      }
+    },
+    "description": "Rosette chart is a feature that shows multiple different normalized metrics of it\x26rsquo;s dataset, including Reanalyses, Citations, Views, Downloads and Connections.\nWith this feature, we can see how much attention people are giving to this dataset by just a quick look. The chart can be found at the search\x26rsquo;s result:\n  Or in the dataset\x26rsquo;s details page:\n  The colour of each of the leaves in the flower is representing a different type of the dataset metrics:"
+  }
+</script>
+
+
+    <link href="https://omicsdi.github.io/css/styles.css" rel="stylesheet">
+    
+
+  </head>
+
+  <body>
+    
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-70417662-3', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    
+
+    <header class="l-header">
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://omicsdi.github.io/">OmicsDI Blog</a>
+          </div>
+
+          
+          <div id="navbar" class="collapse navbar-collapse">
+            
+            <ul class="nav navbar-nav navbar-right">
+              
+              
+              <li><a href="/">Home</a></li>
+              
+              
+              
+              <li><a href="http://www.omicsdi.org">OmicsDI</a></li>
+              
+              
+              
+              <li><a href="http://github.com/OmicsDI">GitHub</a></li>
+              
+              
+            </ul>
+            
+          </div>
+          
+
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        
+<div class="row">
+  <div class="col-md-8">
+
+    <nav class="p-crumb">
+      <ol class="breadcrumb">
+        <li><a href="https://omicsdi.github.io/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+        
+        <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://omicsdi.github.io/post/" itemprop="url"><span itemprop="title">post</span></a></li>
+        
+        <li class="active">Rosette chart in OmicsDI</li>
+      </ol>
+    </nav>
+
+    <article class="single">
+  <header>
+    <ul class="p-facts">
+      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2019-06-11T15:26:54JST">Jun 11, 2019</time></li>
+      <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="https://omicsdi.github.io/post/">post</a></li>
+      
+    </ul>
+
+    <h1 class="title">Rosette chart in OmicsDI</h1>
+  </header>
+
+  
+
+  <div class="article-body"><p>Rosette chart is a feature that shows multiple different normalized metrics of it&rsquo;s dataset, including Reanalyses, Citations, Views, Downloads and Connections.<br />
+With this feature, we can see how much attention people are giving to this dataset by just a quick look. The chart can be found at the search&rsquo;s result:</p>
+
+<figure>
+    <img src="/media/rosette-search.png"/> 
+</figure>
+
+
+<p>Or in the dataset&rsquo;s details page:</p>
+
+<figure>
+    <img src="/media/rosette-dataset.png"/> 
+</figure>
+
+
+<p>The colour of each of the leaves in the flower is representing a different type of the dataset metrics:</p>
+
+<p><img src="/media/rosette-describe.png"></p>
+
+<p>The intensity of the colour leaves in the flower will change depending on the value of the metric with respect to all datasets. Below is some of the samples for comparing the attention score between different datasets:</p>
+
+<p><img src="/media/rosette-samples.png"></p>
+
+<p>The number in the centre of the Rosette&rsquo;s shows the aggregated score (Omics score), which represent how much attention the people are giving to this dataset. The Omics score is computed using all the normalized metrics
+(Reanalyses, Citations, Views, Downloads and Connections). The formula for this metric will be estimated as described in the equation below:</p>
+
+<p><img src="/media/omics-score.png"></p>
+
+<p>To get the actual number of the dataset&rsquo;s metric, hovering the mouse to anywhere inside the chart. A tooltip with the actual value as well as it&rsquo;s normalised value (in percent) will appear:</p>
+
+<p><img src="/media/rosette.png"></p>
+</div>
+
+  <footer class="article-footer">
+    
+    
+    
+    <section class="bordered">
+      <header>
+        <div class="panel-title">CATEGORIES</div>
+      </header>
+      <div>
+        <ul class="p-terms">
+          
+          <li><a href="https://omicsdi.github.io/categories/tutorials/">Tutorials</a></li>
+          
+        </ul>
+      </div>
+    </section>
+    
+    
+    
+    <section class="bordered">
+      <header>
+        <div class="panel-title">TAGS</div>
+      </header>
+      <div>
+        <ul class="p-terms">
+          
+          <li><a href="https://omicsdi.github.io/tags/tutorial/">Tutorial</a></li>
+          
+          <li><a href="https://omicsdi.github.io/tags/rosette/">Rosette</a></li>
+          
+          <li><a href="https://omicsdi.github.io/tags/metrics/">Metrics</a></li>
+          
+          <li><a href="https://omicsdi.github.io/tags/tvu/">tvu</a></li>
+          
+        </ul>
+      </div>
+    </section>
+    
+    
+  </footer>
+
+</article>
+
+
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "omicsdi" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+
+  <div class="col-md-4">
+    
+<aside class="l-sidebar">
+
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">LATESTS</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="https://omicsdi.github.io/post/rosette-chart/" class="list-group-item">Rosette chart in OmicsDI</a>
+      
+      <a href="https://omicsdi.github.io/post/introduction-api/" class="list-group-item">Introduction to OmicsDI API</a>
+      
+      <a href="https://omicsdi.github.io/post/claiming-datasests/" class="list-group-item">Claiming datasets in OmicsDI</a>
+      
+      <a href="https://omicsdi.github.io/post/filter-results/" class="list-group-item">Filtering search results</a>
+      
+      <a href="https://omicsdi.github.io/post/searching-in-omicsdi/" class="list-group-item">Searching in OmicsDI</a>
+      
+      <a href="https://omicsdi.github.io/post/navigation-from-home/" class="list-group-item">Navigating Omics from the home page</a>
+      
+      <a href="https://omicsdi.github.io/post/welcome-to-omicsdi/" class="list-group-item">Welcome to OmicsDI Edu page</a>
+      
+      <a href="https://omicsdi.github.io/post/partners/" class="list-group-item">OmicsDI major partners</a>
+      
+    </div>
+  </section>
+
+  
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">CATEGORY</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="https://omicsdi.github.io/categories/tutorials" class="list-group-item">tutorials</a>
+      
+      <a href="https://omicsdi.github.io/categories/introduction" class="list-group-item">introduction</a>
+      
+      <a href="https://omicsdi.github.io/categories/web-services" class="list-group-item">web-services</a>
+      
+    </div>
+  </section>
+  
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">TAG</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="https://omicsdi.github.io/tags/tutorial" class="list-group-item">tutorial</a>
+      
+      <a href="https://omicsdi.github.io/tags/auto-complete" class="list-group-item">auto-complete</a>
+      
+      <a href="https://omicsdi.github.io/tags/keywords" class="list-group-item">keywords</a>
+      
+      <a href="https://omicsdi.github.io/tags/search" class="list-group-item">search</a>
+      
+      <a href="https://omicsdi.github.io/tags/introduction" class="list-group-item">introduction</a>
+      
+      <a href="https://omicsdi.github.io/tags/omicsdi" class="list-group-item">omicsdi</a>
+      
+      <a href="https://omicsdi.github.io/tags/searching" class="list-group-item">searching</a>
+      
+      <a href="https://omicsdi.github.io/tags/web-components" class="list-group-item">web-components</a>
+      
+      <a href="https://omicsdi.github.io/tags/api" class="list-group-item">api</a>
+      
+      <a href="https://omicsdi.github.io/tags/claiming" class="list-group-item">claiming</a>
+      
+    </div>
+  </section>
+  
+
+</aside>
+
+
+  </div>
+</div>
+
+      </div>
+    </main>
+
+    <footer class="l-footer">
+      <div class="container">
+        <p><span class="h-logo">&copy; OmicsDI Blog</span></p>
+        <aside>
+          <p>Powered by <a href="https://gohugo.io/">Hugo</a>.</p>        
+        </aside>
+      </div>
+    </footer>
+
+    <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+

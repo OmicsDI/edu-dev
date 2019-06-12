@@ -6,10 +6,22 @@
     <description>Recent content in Tutorial on OmicsDI Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Feb 2017 22:56:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Jun 2019 15:26:54 +0000</lastBuildDate>
     
 	<atom:link href="https://omicsdi.github.io/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Rosette chart in OmicsDI</title>
+      <link>https://omicsdi.github.io/post/rosette-chart/</link>
+      <pubDate>Tue, 11 Jun 2019 15:26:54 +0000</pubDate>
+      
+      <guid>https://omicsdi.github.io/post/rosette-chart/</guid>
+      <description>Rosette chart is a feature that shows multiple different normalized metrics of it&amp;rsquo;s dataset, including Reanalyses, Citations, Views, Downloads and Connections.
+With this feature, we can see how much attention people are giving to this dataset by just a quick look. The chart can be found at the search&amp;rsquo;s result:
+  Or in the dataset&amp;rsquo;s details page:
+  The colour of each of the leaves in the flower is representing a different type of the dataset metrics:</description>
+    </item>
     
     <item>
       <title>Introduction to OmicsDI API</title>

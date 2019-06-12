@@ -14,7 +14,7 @@ One of the first request OmicsDI team (January/2017) received after the official
 
 For more than 3 months, OmicsDI Team (www.omicsdi.org) has been working on this feature and we are proud to announce it formal release today. The user profile in OmicsDI follow has a simple aim:
 
-> Provide a central resource where scientist can aggregate all their public omics datasets previously deposited omics archives and repositories.
+>   Provide a central resource where scientist can aggregate all their public omics datasets previously deposited omics archives and repositories.
 
 The OmicsDI Profile is built on two different components:
 

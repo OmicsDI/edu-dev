@@ -6,10 +6,19 @@
     <description>Recent content in Categories on OmicsDI Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Feb 2017 22:56:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Jun 2019 15:26:54 +0000</lastBuildDate>
     
 	<atom:link href="https://omicsdi.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tutorials</title>
+      <link>https://omicsdi.github.io/categories/tutorials/</link>
+      <pubDate>Tue, 11 Jun 2019 15:26:54 +0000</pubDate>
+      
+      <guid>https://omicsdi.github.io/categories/tutorials/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Web-Services</title>
@@ -17,15 +26,6 @@
       <pubDate>Mon, 27 Feb 2017 22:56:34 +0000</pubDate>
       
       <guid>https://omicsdi.github.io/categories/web-services/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tutorials</title>
-      <link>https://omicsdi.github.io/categories/tutorials/</link>
-      <pubDate>Mon, 20 Feb 2017 14:04:54 +0000</pubDate>
-      
-      <guid>https://omicsdi.github.io/categories/tutorials/</guid>
       <description></description>
     </item>
     

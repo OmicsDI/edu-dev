@@ -2,10 +2,12 @@ baseurl = "https://omicsdi.github.io/"
 languageCode = "en-us"
 Title = "OmicsDI Blog"
 HasCJKLanguage = true
-Theme = "hugo-pacman-theme"
+Theme = "hugo_theme_beg"
 pygmentsStyle = "default"
 pygmentsUseClasses = true
 RSSUri = "feed.xml"
+googleAnalytics = "UA-70417662-3"
+disqusShortname = "omicsdi"
 
 [Author]
   Name = "OmicsDI Team"
@@ -21,19 +23,9 @@ RSSUri = "feed.xml"
   GitHub      = "omicsdi"
   Gitter      = "https://gitter.im/BD2K-DDI/OmicsDI-Support"
   Home        = "https://omicsdi.github.io/"
-  Imglogo     = "img/OmicsDI-icon-3.png"
-  AuthorImg   = "img/OmicsDI-icon-3.png"
-  DateFormat  = "2006/01/02"
-  MonthFormat = "2006/01/"
-
-  #[Params.DuoShuo]
-  #  ShortName = "coderzh"
-
-  [Params.Disqus]
-    ShortName = "omicsdi"
-
-  [Params.GoogleAnalytics]
-    ID = "UA-70417662-3"
+  Imglogo     = "/media/OmicsDI-icon-3.png"
+  AuthorImg   = "/media/OmicsDI-icon-3.png"
+  dateformat = "Jan 2, 2006" # Optional
 
   [Params.Strings]
     Search = "Search"
